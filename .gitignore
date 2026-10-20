@@ -1,0 +1,8 @@
+Config/ 
+source/
+.cursor/
+.code-index/
+.index/
+*.cf
+# общая выгрузка БП (junction на C:\Programming\Configs)
+/config
