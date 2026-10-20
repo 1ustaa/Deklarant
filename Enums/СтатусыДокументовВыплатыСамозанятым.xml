@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="9097e868-a756-4345-8593-3c386bb4a5ca">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыДокументовВыплатыСамозанятым" category="Ref">
+				<xr:TypeId>c41c838d-4dc2-4bd9-8042-6f9c126f0cb0</xr:TypeId>
+				<xr:ValueId>9c99a6a4-a3a0-4df9-b692-ad567a4db2b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыДокументовВыплатыСамозанятым" category="Manager">
+				<xr:TypeId>c5a464e2-b043-4914-b677-0a3d789dd6a4</xr:TypeId>
+				<xr:ValueId>f5fb19bb-d158-465c-baf5-8c5320bb4315</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыДокументовВыплатыСамозанятым" category="List">
+				<xr:TypeId>26822c78-9574-4988-9b0f-bdc27771cb20</xr:TypeId>
+				<xr:ValueId>78e974e5-4f80-4e85-8bef-14fa8660e300</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыДокументовВыплатыСамозанятым</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5f136c67-3ce1-409c-86ec-05e5168e7c2e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

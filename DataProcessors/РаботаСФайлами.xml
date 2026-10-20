@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="09e7a57c-403d-42b3-a529-1c6ea03be8f3">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.РаботаСФайлами" category="Object">
+				<xr:TypeId>e9927e0b-a125-4a53-a35e-f2e55180f393</xr:TypeId>
+				<xr:ValueId>d50fc9a1-8fde-4eb3-a8cc-48ec15f97afc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.РаботаСФайлами" category="Manager">
+				<xr:TypeId>b88beb5f-342f-4f21-88d7-a3a63deda32a</xr:TypeId>
+				<xr:ValueId>f410d42c-e9f3-446e-9735-75566d09431c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаботаСФайлами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>20feb794-eb05-46a6-90e7-ca4e2376d7b2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ПрисоединенныйФайл</Form>
+			<Form>ПрисоединенныеФайлы</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

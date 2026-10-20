@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d48533a7-898e-4d43-8331-37dff0324831">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетПроизводстваЗаСмену" category="Object">
+				<xr:TypeId>0cf6bcd5-0c23-4109-b188-98222b342bff</xr:TypeId>
+				<xr:ValueId>ea386580-09e7-4a87-8bfd-e3c8ea97ece9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетПроизводстваЗаСмену" category="Ref">
+				<xr:TypeId>88ec5d39-b5c5-44b5-a550-6393004177b7</xr:TypeId>
+				<xr:ValueId>d8f7a138-55d3-4f31-85da-37cdb9aad355</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетПроизводстваЗаСмену" category="Selection">
+				<xr:TypeId>d53cfbd1-303f-4695-ac3f-a6da0858d778</xr:TypeId>
+				<xr:ValueId>87130d07-7d70-4dad-b7c1-baa33aae7d3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетПроизводстваЗаСмену" category="List">
+				<xr:TypeId>99ead280-7eb4-4838-8530-b4b98aff1beb</xr:TypeId>
+				<xr:ValueId>20b55176-7d02-4fba-a1b3-f173b688dad6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетПроизводстваЗаСмену" category="Manager">
+				<xr:TypeId>26f8f9c1-a4b3-439d-a109-442f43d7c9bf</xr:TypeId>
+				<xr:ValueId>6e811b72-e93d-41a6-968c-dcfde72bd9a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетПроизводстваЗаСмену</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7b505f30-b704-42be-954f-6ea1382b1828</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

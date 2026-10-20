@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="40ce438f-6d7f-43b1-8a0e-6cb35669b0f0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаЕНС" category="Object">
+				<xr:TypeId>efd76a1b-3e9f-4c5f-aad0-5877ab3da62b</xr:TypeId>
+				<xr:ValueId>1db1d62a-0231-40dc-a6f6-62c1862bf80b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаЕНС" category="Ref">
+				<xr:TypeId>874cc88c-f992-4328-b54d-3b6b3df2c3de</xr:TypeId>
+				<xr:ValueId>2ddeb1d8-1ad4-4b04-8611-c5e80f513bd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаЕНС" category="Selection">
+				<xr:TypeId>d04927b9-29af-40e5-9f05-9ef211fd5179</xr:TypeId>
+				<xr:ValueId>22efcb21-ebfe-44d5-8952-db150d1ade02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаЕНС" category="List">
+				<xr:TypeId>ea556b25-3d6f-4680-a0e5-aca84aa6bd04</xr:TypeId>
+				<xr:ValueId>d2e19aee-7c43-434a-88d3-5cb7348bd975</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаЕНС" category="Manager">
+				<xr:TypeId>28650898-bcbd-4ba2-bd8c-6c1c52ba0c6f</xr:TypeId>
+				<xr:ValueId>e8cda99c-fd3f-4314-a1df-67a655bf5fd2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаЕНС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cd19c9fb-5a34-4783-930b-24abdd6b8273</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

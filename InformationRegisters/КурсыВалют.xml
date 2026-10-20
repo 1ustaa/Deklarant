@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="6167456c-727a-4b23-8556-013c3a7d7551">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КурсыВалют" category="Record">
+				<xr:TypeId>e880d2bb-826c-44a4-9054-9f19989c9dd8</xr:TypeId>
+				<xr:ValueId>282dff5e-0a41-45a3-b921-109c5729fe21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КурсыВалют" category="Manager">
+				<xr:TypeId>8adb564c-c265-432c-a8d0-eed1909e5f0c</xr:TypeId>
+				<xr:ValueId>b3f59f1a-b77e-443a-b860-91cba0595f24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КурсыВалют" category="Selection">
+				<xr:TypeId>eacb5c63-e991-4f79-94af-f29724a15d0c</xr:TypeId>
+				<xr:ValueId>b514fb5c-6589-4fe5-8311-ad0c3b919273</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КурсыВалют" category="List">
+				<xr:TypeId>37f41c6a-092f-48f6-a2a6-cbeb0e133c82</xr:TypeId>
+				<xr:ValueId>f03f572e-01f6-4a39-bd88-1b5df4738607</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КурсыВалют" category="RecordSet">
+				<xr:TypeId>763c0943-b0f3-4400-8de9-c4557f3fa1ab</xr:TypeId>
+				<xr:ValueId>f2eea84a-9d29-4a7a-8446-ee28f4dfd685</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КурсыВалют" category="RecordKey">
+				<xr:TypeId>2aada1f0-c981-4d76-a096-1b690db3bc41</xr:TypeId>
+				<xr:ValueId>a1b328c4-8616-4ed5-bc01-2b8d30348124</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КурсыВалют" category="RecordManager">
+				<xr:TypeId>3e43e7a6-0b0f-4876-956e-698dadd9c029</xr:TypeId>
+				<xr:ValueId>c8625954-6671-4db9-a0a0-9bd61f35c510</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КурсыВалют</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>41a40609-a7d0-4296-8453-743cc8068779</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4da24725-30c4-490c-97c2-a2b1e04a8277">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Курс</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ff8899a4-9c5a-4528-af95-5373cc4fa832</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.КурсВалюты</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d0aaa133-b97f-4e6c-9f10-49b0f4ac844c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Кратность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4c24c4a8-ace0-4ac9-9fb0-5bb6de49fad1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="a93472ec-1996-46c8-931e-bc8d58444677">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Валюта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>37e4ef25-41eb-4a5f-af0b-3ed214dd555d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

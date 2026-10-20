@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="89ea6ad9-26e2-4536-91f7-07a0f82ea913">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийПоступлениеДенежныхСредств" category="Ref">
+				<xr:TypeId>5a9a1665-f63e-4408-81e8-32130e0f16a5</xr:TypeId>
+				<xr:ValueId>a05fe8b7-9333-42ce-8015-af5160dc1959</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийПоступлениеДенежныхСредств" category="Manager">
+				<xr:TypeId>2b2efaff-450f-4b4f-b12d-2616a21fab77</xr:TypeId>
+				<xr:ValueId>9bc338d5-0a8b-4f8c-884b-60f35e0d75a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийПоступлениеДенежныхСредств" category="List">
+				<xr:TypeId>d0c99676-778f-4b72-8c5c-b511be26566f</xr:TypeId>
+				<xr:ValueId>01d3b78c-2372-4e59-8229-c97fad218072</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийПоступлениеДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6777c8a2-a5d8-4894-bf4d-8ebb48b8c41d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a030476e-2f43-43bf-9d65-55d11c72abff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Депозит</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>20021163-a5f4-414a-b9e4-13c86bbf844d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f443d965-8847-462c-8d8a-488b2387ac9f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПереводСДругогоСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fa53ffd2-f8df-43a2-8814-0b86244e74e0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="66f22788-eeed-4e50-a1ef-a1dcb0e6d836">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Инкассация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f343b2a3-c0e4-4713-acf1-a2a3f4720a48</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ead0325d-ebb0-46bf-b6b7-75bf524a9803">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаписьКУДиР" category="Object">
+				<xr:TypeId>b768c2fb-2d44-4b8d-a455-f03f248f2391</xr:TypeId>
+				<xr:ValueId>4cbfaf32-b341-431d-85e0-d42b38bcf954</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаписьКУДиР" category="Ref">
+				<xr:TypeId>c2da3dcd-1e49-4417-b7c4-e06e55db9a83</xr:TypeId>
+				<xr:ValueId>35c24cb9-d446-4e19-a13e-b245af4dfcd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаписьКУДиР" category="Selection">
+				<xr:TypeId>6cc33372-3fb4-48e9-abaa-948542ad6e0b</xr:TypeId>
+				<xr:ValueId>4e61d77d-5fd3-4373-9aaa-0c8d3b65623d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаписьКУДиР" category="List">
+				<xr:TypeId>677f2fc9-ad16-4869-8b11-ec0364dc5bc0</xr:TypeId>
+				<xr:ValueId>d44f398c-1762-404d-af9d-4ea23955024c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаписьКУДиР" category="Manager">
+				<xr:TypeId>ca3c9a32-fb40-436a-8a7f-fc2c9765f1a6</xr:TypeId>
+				<xr:ValueId>aa1383ee-2655-4879-9b3f-3e4c4125c804</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаписьКУДиР</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f9105014-1bd0-4497-bbbd-b1bb54ae1a08</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

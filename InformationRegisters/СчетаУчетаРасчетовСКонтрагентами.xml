@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="af31b7ab-3613-4c00-bdb2-0304ebd38243">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СчетаУчетаРасчетовСКонтрагентами" category="Record">
+				<xr:TypeId>08a8d646-c39f-4dd8-bccc-7ad0bd101f40</xr:TypeId>
+				<xr:ValueId>aa4a433e-ad17-4bc6-a167-ed019c29f016</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СчетаУчетаРасчетовСКонтрагентами" category="Manager">
+				<xr:TypeId>45c89230-12fd-41fa-ae37-01e41556525d</xr:TypeId>
+				<xr:ValueId>7f2690dd-c5b1-4548-91af-bb89892755b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СчетаУчетаРасчетовСКонтрагентами" category="Selection">
+				<xr:TypeId>144c98f2-941e-4150-b643-912330ffc9f2</xr:TypeId>
+				<xr:ValueId>48a3d782-540f-43f7-a637-b39c1ac2fee7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СчетаУчетаРасчетовСКонтрагентами" category="List">
+				<xr:TypeId>ee2433cf-27cb-4a25-b43a-b3ed1b52b290</xr:TypeId>
+				<xr:ValueId>5c1e33fb-3ae2-4a35-a509-69eb0898652f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СчетаУчетаРасчетовСКонтрагентами" category="RecordSet">
+				<xr:TypeId>12235f2d-1a39-428e-904e-c3aa4d2dddb2</xr:TypeId>
+				<xr:ValueId>7b18f886-ee83-4267-bb71-4b1a5f16badf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СчетаУчетаРасчетовСКонтрагентами" category="RecordKey">
+				<xr:TypeId>0e1f4956-3fec-4d75-b450-7462fd64077f</xr:TypeId>
+				<xr:ValueId>d8502309-3c66-4da6-a59b-b1765cd0f619</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СчетаУчетаРасчетовСКонтрагентами" category="RecordManager">
+				<xr:TypeId>85c27760-9f44-4ce7-a10e-939c27ed2ea6</xr:TypeId>
+				<xr:ValueId>32b20886-df52-4fb8-bb13-6b75a39dca7e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СчетаУчетаРасчетовСКонтрагентами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>69df8603-12f2-4eba-a3a9-0fc33f011348</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

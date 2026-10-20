@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f24dd9f7-f69e-4a11-86bd-3e9c40982d25">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПрекращениеАренды" category="Object">
+				<xr:TypeId>bfae7073-a3bf-40d0-8f70-675a3ce3eb69</xr:TypeId>
+				<xr:ValueId>e802a000-35e1-4813-947f-9ac3ff7455b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПрекращениеАренды" category="Ref">
+				<xr:TypeId>9a4e9a1c-f26a-42ea-83ac-ac346b57d651</xr:TypeId>
+				<xr:ValueId>3e1a45d8-c387-4666-8d97-664840838031</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПрекращениеАренды" category="Selection">
+				<xr:TypeId>d639b209-fe99-4cac-9f86-266a0014ec38</xr:TypeId>
+				<xr:ValueId>0394fc93-ae0d-464f-8461-392173162791</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПрекращениеАренды" category="List">
+				<xr:TypeId>c6a9d9bf-0613-4644-a0f6-4e8625fec175</xr:TypeId>
+				<xr:ValueId>142f740e-930c-4b15-8977-2394e092ddbc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПрекращениеАренды" category="Manager">
+				<xr:TypeId>7908a28d-d2be-4262-8444-d0f13232f482</xr:TypeId>
+				<xr:ValueId>d2c47d7f-4b84-471c-a84f-f48ebaa504fc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПрекращениеАренды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a3926bec-65fb-4105-9745-443af4e3e917</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f93e6208-ecd6-43e6-84bb-0bacf9f9a4c9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>17d9e078-4404-48a0-a6f6-66d6129a3fb1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="02b63c3b-0447-45d0-a646-0bf534ce9cef">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cc898dbf-395a-4182-9086-595e54f93b86</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

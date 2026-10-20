@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="8b7b8a61-9785-4bb3-a7aa-3c40ced36762">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыЗаполненияСтавкиНДС" category="Ref">
+				<xr:TypeId>e7045510-d596-4b8d-83fd-a13da9185b02</xr:TypeId>
+				<xr:ValueId>59db3f39-22fc-4cf5-95d3-3efe4197cae6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыЗаполненияСтавкиНДС" category="Manager">
+				<xr:TypeId>5bf7f39e-f1da-4964-9adc-6dc42fb8cbec</xr:TypeId>
+				<xr:ValueId>bbf0b21c-0fbd-4386-a536-876641c7bc64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыЗаполненияСтавкиНДС" category="List">
+				<xr:TypeId>63bd1591-12df-44a7-8655-9eec96257361</xr:TypeId>
+				<xr:ValueId>7c96e646-8617-4513-8a78-b3c150efa0dd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыЗаполненияСтавкиНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d64145f0-65f1-4484-bb04-701d3b6c3eea</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2296ef78-d31c-406d-b005-555043bf12bd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БезНДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>40f37c8f-24c1-4472-9c47-b8e4e2f94f02</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="67ca3c5f-a935-4f33-a55c-2a061314b6a3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Автоматически</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a02d789d-c4e9-412a-86da-cf2097b8848e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e9d72233-f75c-4c0c-ae20-2346d6936ec4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИзКарточкиНоменклатуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>58c3ce5e-74e4-4aec-b183-76c27d3a1201</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

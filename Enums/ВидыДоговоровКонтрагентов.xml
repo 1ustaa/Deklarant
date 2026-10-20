@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="56d9b1d0-ceb2-4c4b-a7d6-13b76d8867ac">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДоговоровКонтрагентов" category="Ref">
+				<xr:TypeId>dcdd3309-ba9a-47a0-9c67-d393846e1625</xr:TypeId>
+				<xr:ValueId>b27b5529-8f62-428f-883f-fe113ce66637</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДоговоровКонтрагентов" category="Manager">
+				<xr:TypeId>cdbebeb5-8a19-4421-9db4-a859bfd7203f</xr:TypeId>
+				<xr:ValueId>870b6edb-202e-45c6-b174-ee07da693d40</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДоговоровКонтрагентов" category="List">
+				<xr:TypeId>881d29b1-e2e1-4c23-b1c7-e458a45fc1e8</xr:TypeId>
+				<xr:ValueId>91446ba3-069c-4471-afcd-688223cad5f3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыДоговоровКонтрагентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e15b40d3-747a-4516-bd43-469db8e9da3b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b92c673b-00b2-4f89-ae9d-b3729b8c374f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СПокупателем</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8da6e856-e991-4ba5-8398-23e95cb1d78e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5b8cdf00-28fd-43fa-8138-757f6a014981">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СПоставщиком</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70ad4bc4-185e-4fb4-b2a3-3facfc34ef3d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="98912ea1-8f0c-4aad-b246-6bb018d28290">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СКомиссионеромНаЗакупку</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1eb564ac-8a95-4795-8e25-f4efc964505c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cb708040-1c7d-4412-89db-f06eafb47766">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СФакторинговойКомпанией</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d40b5908-1eff-4857-85b7-89ec745c725a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="90057c4d-a99a-41ae-8b6b-43a967483507">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СКомитентомНаЗакупку</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ba7a9143-b918-4014-a68b-ba222841ead7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="57d085af-8cc5-499e-8df7-9cbcb012853b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СКомитентом</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2ea8875b-a611-4d03-9bdb-fcee1079e296</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="43c41a85-04d0-4c8b-8070-2110faf034ca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СКомиссионером</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8cd153df-5efe-44d4-8ee5-1fea085c40a5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

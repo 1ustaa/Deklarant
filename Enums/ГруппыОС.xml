@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="35c9c96f-a2b9-47f3-8213-a1acdee95127">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ГруппыОС" category="Ref">
+				<xr:TypeId>2e2822df-c3f0-4779-867c-15b07ed1f1d2</xr:TypeId>
+				<xr:ValueId>d0b75a6e-b281-4415-871e-8c6fe57eaabc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ГруппыОС" category="Manager">
+				<xr:TypeId>5c86c840-3690-42f2-8583-26a5675c3e13</xr:TypeId>
+				<xr:ValueId>24dc2e6d-aa32-4333-bd5b-5c215ea1ed73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ГруппыОС" category="List">
+				<xr:TypeId>d5400f16-b7ea-40da-b638-64d8de12f7f4</xr:TypeId>
+				<xr:ValueId>482a5c90-eb8b-49e3-a0ca-8e3824d7c34d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГруппыОС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cd1700fa-fec7-4a47-8ef4-452f9c02b0ae</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаНДС</dataPath>
+			<field>СуммаНДС</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВсегоСНДС</dataPath>
+			<field>ВсегоСНДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего с НДС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ</dataPath>
+			<field>Документ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаДокумента</dataPath>
+			<field>СуммаДокумента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма документа</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ПоступлениеТоваровУслугТовары.Номенклатура КАК Номенклатура,
+	ПоступлениеТоваровУслугТовары.Количество КАК Количество,
+	ПоступлениеТоваровУслугТовары.Сумма КАК Сумма,
+	ПоступлениеТоваровУслугТовары.СуммаНДС КАК СуммаНДС,
+	ПоступлениеТоваровУслугТовары.Ссылка КАК Документ,
+	ВЫБОР
+		КОГДА ПоступлениеТоваровУслугТовары.Ссылка.СуммаВключаетНДС
+			ТОГДА ПоступлениеТоваровУслугТовары.Сумма
+		ИНАЧЕ ПоступлениеТоваровУслугТовары.Сумма + ПоступлениеТоваровУслугТовары.СуммаНДС
+	КОНЕЦ КАК ВсегоСНДС,
+	ПоступлениеТоваровУслугТовары.Ссылка.Организация КАК Организация,
+	НАЧАЛОПЕРИОДА(ПоступлениеТоваровУслугТовары.Ссылка.Дата, МЕСЯЦ) КАК Период,
+	ПоступлениеТоваровУслугТовары.Ссылка.Контрагент КАК Контрагент
+ПОМЕСТИТЬ ВТ_ДанныеПоступления
+ИЗ
+	Документ.ПоступлениеТоваровУслуг.Товары КАК ПоступлениеТоваровУслугТовары
+ГДЕ
+	ПоступлениеТоваровУслугТовары.Ссылка.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПоступлениеТоваровУслугУслуги.Номенклатура,
+	ПоступлениеТоваровУслугУслуги.Количество,
+	ПоступлениеТоваровУслугУслуги.Сумма,
+	ПоступлениеТоваровУслугУслуги.СуммаНДС,
+	ПоступлениеТоваровУслугУслуги.Ссылка,
+	ВЫБОР
+		КОГДА ПоступлениеТоваровУслугУслуги.Ссылка.СуммаВключаетНДС
+			ТОГДА ПоступлениеТоваровУслугУслуги.Сумма
+		ИНАЧЕ ПоступлениеТоваровУслугУслуги.Сумма + ПоступлениеТоваровУслугУслуги.СуммаНДС
+	КОНЕЦ,
+	ПоступлениеТоваровУслугУслуги.Ссылка.Организация,
+	НАЧАЛОПЕРИОДА(ПоступлениеТоваровУслугУслуги.Ссылка.Дата, МЕСЯЦ),
+	ПоступлениеТоваровУслугУслуги.Ссылка.Контрагент
+ИЗ
+	Документ.ПоступлениеТоваровУслуг.Услуги КАК ПоступлениеТоваровУслугУслуги
+ГДЕ
+	ПоступлениеТоваровУслугУслуги.Ссылка.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПоступлениеТоваровУслугАгентскиеУслуги.Номенклатура,
+	ПоступлениеТоваровУслугАгентскиеУслуги.Количество,
+	ПоступлениеТоваровУслугАгентскиеУслуги.Сумма,
+	ПоступлениеТоваровУслугАгентскиеУслуги.СуммаНДС,
+	ПоступлениеТоваровУслугАгентскиеУслуги.Ссылка,
+	ВЫБОР
+		КОГДА ПоступлениеТоваровУслугАгентскиеУслуги.Ссылка.СуммаВключаетНДС
+			ТОГДА ПоступлениеТоваровУслугАгентскиеУслуги.Сумма
+		ИНАЧЕ ПоступлениеТоваровУслугАгентскиеУслуги.Сумма + ПоступлениеТоваровУслугАгентскиеУслуги.СуммаНДС
+	КОНЕЦ,
+	ПоступлениеТоваровУслугАгентскиеУслуги.Ссылка.Организация,
+	НАЧАЛОПЕРИОДА(ПоступлениеТоваровУслугАгентскиеУслуги.Ссылка.Дата, МЕСЯЦ),
+	ПоступлениеТоваровУслугАгентскиеУслуги.Ссылка.Контрагент
+ИЗ
+	Документ.ПоступлениеТоваровУслуг.АгентскиеУслуги КАК ПоступлениеТоваровУслугАгентскиеУслуги
+ГДЕ
+	ПоступлениеТоваровУслугАгентскиеУслуги.Ссылка.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	И ПоступлениеТоваровУслугАгентскиеУслуги.Ссылка.Проведен = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КорректировкаПоступленияТовары.Номенклатура КАК Номенклатура,
+	КорректировкаПоступленияТовары.Количество КАК Количество,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияТовары.Сумма = 0
+			ТОГДА КорректировкаПоступленияТовары.СуммаДоКорректировки
+		ИНАЧЕ КорректировкаПоступленияТовары.Сумма
+	КОНЕЦ КАК Сумма,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияТовары.СуммаНДС = 0
+			ТОГДА КорректировкаПоступленияТовары.СуммаНДСДоКорректировки
+		ИНАЧЕ КорректировкаПоступленияТовары.СуммаНДС
+	КОНЕЦ КАК СуммаНДС,
+	КорректировкаПоступленияТовары.Ссылка.ДокументПоступления КАК Документ,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияТовары.Ссылка.СуммаВключаетНДС
+			ТОГДА ВЫБОР
+					КОГДА КорректировкаПоступленияТовары.Сумма = 0
+						ТОГДА КорректировкаПоступленияТовары.СуммаДоКорректировки
+					ИНАЧЕ КорректировкаПоступленияТовары.Сумма
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА КорректировкаПоступленияТовары.СуммаНДС = 0
+					ТОГДА КорректировкаПоступленияТовары.СуммаНДСДоКорректировки
+				ИНАЧЕ КорректировкаПоступленияТовары.СуммаНДС
+			КОНЕЦ + ВЫБОР
+				КОГДА КорректировкаПоступленияТовары.Сумма = 0
+					ТОГДА КорректировкаПоступленияТовары.СуммаДоКорректировки
+				ИНАЧЕ КорректировкаПоступленияТовары.Сумма
+			КОНЕЦ
+	КОНЕЦ КАК ВсегоСНДС,
+	КорректировкаПоступленияТовары.Ссылка.Организация КАК Организация,
+	НАЧАЛОПЕРИОДА(КорректировкаПоступленияТовары.Ссылка.Дата, МЕСЯЦ) КАК Период,
+	КорректировкаПоступленияТовары.Ссылка.Контрагент КАК Контрагент,
+	КорректировкаПоступленияТовары.Ссылка КАК ВыбраныйДокумент
+ПОМЕСТИТЬ ВТ_ДанныеКорректировки
+ИЗ
+	Документ.КорректировкаПоступления.Товары КАК КорректировкаПоступленияТовары
+ГДЕ
+	КорректировкаПоступленияТовары.Ссылка.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	И КорректировкаПоступленияТовары.Ссылка.Проведен = ИСТИНА
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	КорректировкаПоступленияУслуги.Номенклатура,
+	КорректировкаПоступленияУслуги.Количество,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияУслуги.Сумма = 0
+			ТОГДА КорректировкаПоступленияУслуги.СуммаДоКорректировки
+		ИНАЧЕ КорректировкаПоступленияУслуги.Сумма
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияУслуги.СуммаНДС = 0
+			ТОГДА КорректировкаПоступленияУслуги.СуммаНДСДоКорректировки
+		ИНАЧЕ КорректировкаПоступленияУслуги.СуммаНДС
+	КОНЕЦ,
+	КорректировкаПоступленияУслуги.Ссылка.ДокументПоступления,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияУслуги.Ссылка.СуммаВключаетНДС
+			ТОГДА ВЫБОР
+					КОГДА КорректировкаПоступленияУслуги.Сумма = 0
+						ТОГДА КорректировкаПоступленияУслуги.СуммаДоКорректировки
+					ИНАЧЕ КорректировкаПоступленияУслуги.Сумма
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА КорректировкаПоступленияУслуги.Сумма = 0
+					ТОГДА КорректировкаПоступленияУслуги.СуммаДоКорректировки
+				ИНАЧЕ КорректировкаПоступленияУслуги.Сумма
+			КОНЕЦ + ВЫБОР
+				КОГДА КорректировкаПоступленияУслуги.СуммаНДС = 0
+					ТОГДА КорректировкаПоступленияУслуги.СуммаНДСДоКорректировки
+				ИНАЧЕ КорректировкаПоступленияУслуги.СуммаНДС
+			КОНЕЦ
+	КОНЕЦ,
+	КорректировкаПоступленияУслуги.Ссылка.Организация,
+	НАЧАЛОПЕРИОДА(КорректировкаПоступленияУслуги.Ссылка.Дата, МЕСЯЦ),
+	КорректировкаПоступленияУслуги.Ссылка.Контрагент,
+	КорректировкаПоступленияУслуги.Ссылка
+ИЗ
+	Документ.КорректировкаПоступления.Услуги КАК КорректировкаПоступленияУслуги
+ГДЕ
+	КорректировкаПоступленияУслуги.Ссылка.Проведен = ИСТИНА
+	И КорректировкаПоступленияУслуги.Ссылка.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	КорректировкаПоступленияАгентскиеУслуги.Номенклатура,
+	КорректировкаПоступленияАгентскиеУслуги.Количество,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияАгентскиеУслуги.Сумма = 0
+			ТОГДА КорректировкаПоступленияАгентскиеУслуги.СуммаДоКорректировки
+		ИНАЧЕ КорректировкаПоступленияАгентскиеУслуги.Сумма
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияАгентскиеУслуги.СуммаНДС = 0
+			ТОГДА КорректировкаПоступленияАгентскиеУслуги.СуммаНДСДоКорректировки
+		ИНАЧЕ КорректировкаПоступленияАгентскиеУслуги.СуммаНДС
+	КОНЕЦ,
+	КорректировкаПоступленияАгентскиеУслуги.Ссылка.ДокументПоступления,
+	ВЫБОР
+		КОГДА КорректировкаПоступленияАгентскиеУслуги.Ссылка.СуммаВключаетНДС
+			ТОГДА ВЫБОР
+					КОГДА КорректировкаПоступленияАгентскиеУслуги.Сумма = 0
+						ТОГДА КорректировкаПоступленияАгентскиеУслуги.СуммаДоКорректировки
+					ИНАЧЕ КорректировкаПоступленияАгентскиеУслуги.Сумма
+				КОНЕЦ
+		ИНАЧЕ ВЫБОР
+				КОГДА КорректировкаПоступленияАгентскиеУслуги.Сумма = 0
+					ТОГДА КорректировкаПоступленияАгентскиеУслуги.СуммаДоКорректировки
+				ИНАЧЕ КорректировкаПоступленияАгентскиеУслуги.Сумма
+			КОНЕЦ + ВЫБОР
+				КОГДА КорректировкаПоступленияАгентскиеУслуги.СуммаНДС = 0
+					ТОГДА КорректировкаПоступленияАгентскиеУслуги.СуммаНДСДоКорректировки
+				ИНАЧЕ КорректировкаПоступленияАгентскиеУслуги.СуммаНДС
+			КОНЕЦ
+	КОНЕЦ,
+	КорректировкаПоступленияАгентскиеУслуги.Ссылка.Организация,
+	НАЧАЛОПЕРИОДА(КорректировкаПоступленияАгентскиеУслуги.Ссылка.Дата, МЕСЯЦ),
+	КорректировкаПоступленияАгентскиеУслуги.Ссылка.Контрагент,
+	КорректировкаПоступленияАгентскиеУслуги.Ссылка
+ИЗ
+	Документ.КорректировкаПоступления.АгентскиеУслуги КАК КорректировкаПоступленияАгентскиеУслуги
+ГДЕ
+	КорректировкаПоступленияАгентскиеУслуги.Ссылка.Проведен = ИСТИНА
+	И КорректировкаПоступленияАгентскиеУслуги.Ссылка.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ДанныеПоступления.Номенклатура КАК Номенклатура,
+	ВТ_ДанныеПоступления.Количество КАК Количество,
+	ВТ_ДанныеПоступления.Сумма КАК Сумма,
+	ВТ_ДанныеПоступления.СуммаНДС КАК СуммаНДС,
+	ВТ_ДанныеПоступления.Документ КАК ДокументПоставки,
+	ВТ_ДанныеПоступления.ВсегоСНДС КАК ВсегоСНДС,
+	ВТ_ДанныеПоступления.Организация КАК Организация,
+	ВТ_ДанныеПоступления.Период КАК Период,
+	ВТ_ДанныеПоступления.Контрагент КАК Контрагент,
+	NULL КАК ВыбраныйДокумент,
+	ВТ_ДанныеПоступления.Документ.СуммаВключаетНДС КАК ДокументСуммаВключаетНДС
+ПОМЕСТИТЬ ВТ_ПоступлениеКорректировка
+ИЗ
+	ВТ_ДанныеПоступления КАК ВТ_ДанныеПоступления
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТ_ДанныеКорректировки.Номенклатура,
+	ВТ_ДанныеКорректировки.Количество,
+	ВТ_ДанныеКорректировки.Сумма,
+	ВТ_ДанныеКорректировки.СуммаНДС,
+	ВТ_ДанныеКорректировки.Документ,
+	ВТ_ДанныеКорректировки.ВсегоСНДС,
+	ВТ_ДанныеКорректировки.Организация,
+	ВТ_ДанныеКорректировки.Период,
+	ВТ_ДанныеКорректировки.Контрагент,
+	ВТ_ДанныеКорректировки.ВыбраныйДокумент,
+	ВТ_ДанныеКорректировки.Документ.СуммаВключаетНДС
+ИЗ
+	ВТ_ДанныеКорректировки КАК ВТ_ДанныеКорректировки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ПоступлениеКорректировка.Номенклатура КАК Номенклатура,
+	ВТ_ПоступлениеКорректировка.Количество КАК Количество,
+	ВТ_ПоступлениеКорректировка.Сумма КАК Сумма,
+	ВТ_ПоступлениеКорректировка.СуммаНДС КАК СуммаНДС,
+	ВТ_ПоступлениеКорректировка.ВсегоСНДС КАК ВсегоСНДС,
+	ВТ_ПоступлениеКорректировка.Организация КАК Организация,
+	ВТ_ПоступлениеКорректировка.Период КАК Период,
+	ВТ_ПоступлениеКорректировка.Контрагент КАК Контрагент,
+	ЕСТЬNULL(ВТ_ПоступлениеКорректировка.ВыбраныйДокумент, ВТ_ПоступлениеКорректировка.ДокументПоставки) КАК Документ,
+	ВЫБОР
+		КОГДА ВТ_ПоступлениеКорректировка.ДокументСуммаВключаетНДС
+			ТОГДА ВТ_ПоступлениеКорректировка.ВсегоСНДС - ВТ_ПоступлениеКорректировка.СуммаНДС
+		ИНАЧЕ ВТ_ПоступлениеКорректировка.Сумма
+	КОНЕЦ КАК СуммаДокумента
+ИЗ
+	ВТ_ПоступлениеКорректировка КАК ВТ_ПоступлениеКорректировка</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ВсегоСНДС</dataPath>
+		<expression>Сумма(ВсегоСНДС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНДС</dataPath>
+		<expression>Сумма(СуммаНДС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаДокумента</dataPath>
+		<expression>Сумма(СуммаДокумента)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Покупки</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Покупки по номенклатуре</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Период.ЧастиДат.НазваниеМесяца</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Организация</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Номенклатура</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Документ</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Количество</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаДокумента</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаНДС</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>НДС</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВсегоСНДС</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Всего</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6c9e2604-eb8e-4a33-b7b4-fe6dc4a99165">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыУслугРазмещения" category="Ref">
+				<xr:TypeId>0b150907-0207-4942-8bae-9abe240b6c55</xr:TypeId>
+				<xr:ValueId>be2aa1f4-c1d9-4709-b68e-16d666531b5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыУслугРазмещения" category="Manager">
+				<xr:TypeId>b0a16bad-5b74-48f9-b3a6-d3a3b7502cb7</xr:TypeId>
+				<xr:ValueId>9983b519-3b57-4b3a-8c90-36a0696da5d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыУслугРазмещения" category="List">
+				<xr:TypeId>874db73e-2687-49ac-9f58-17d5daa89ae5</xr:TypeId>
+				<xr:ValueId>489626b1-a53a-4523-8257-17140c999871</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыУслугРазмещения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4f0f8f3b-6d95-45f4-8916-35a90899dd17</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

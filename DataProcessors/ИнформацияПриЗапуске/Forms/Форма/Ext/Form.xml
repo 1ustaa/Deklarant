@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Информация</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<CommandBar name="ВерхняяПанель" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Верхняя панель</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ВерхняяПанельExtendedTooltip" id="9"/>
+			<ChildItems>
+				<Button name="ФормаНазад" id="1">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаНазадExtendedTooltip" id="10"/>
+				</Button>
+				<Button name="ФормаВперед" id="2">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаВпередExtendedTooltip" id="11"/>
+				</Button>
+				<ButtonGroup name="БезПодменю" id="8">
+					<ExtendedTooltip name="БезПодменюExtendedTooltip" id="12"/>
+					<ChildItems>
+						<Button name="ГлавнаяСтраница" id="17">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ГлавнаяСтраницаРасширеннаяПодсказка" id="18"/>
+						</Button>
+					</ChildItems>
+				</ButtonGroup>
+				<Popup name="Подменю1" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обучение</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Подменю1РасширеннаяПодсказка" id="20"/>
+				</Popup>
+				<Popup name="Подменю2" id="21">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поддержка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Подменю2РасширеннаяПодсказка" id="22"/>
+				</Popup>
+				<Popup name="Подменю3" id="23">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предприятие 8</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Подменю3РасширеннаяПодсказка" id="24"/>
+				</Popup>
+				<Popup name="Подменю4" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Справочная информация</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Подменю4РасширеннаяПодсказка" id="26"/>
+				</Popup>
+				<Popup name="Подменю5" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единый семинар</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Подменю5РасширеннаяПодсказка" id="28"/>
+				</Popup>
+			</ChildItems>
+		</CommandBar>
+		<HTMLDocumentField name="ВебСодержимое" id="3">
+			<TitleLocation>None</TitleLocation>
+			<Width>95</Width>
+			<Height>25</Height>
+			<ContextMenu name="ВебСодержимоеКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ВебСодержимоеExtendedTooltip" id="13"/>
+		</HTMLDocumentField>
+		<CheckBoxField name="ПоказыватьПриНачалеРаботы" id="5">
+			<TitleLocation>Right</TitleLocation>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>При отключении флажка информация не будет показываться месяц или до следующего обновления.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПоказыватьПриНачалеРаботыКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ПоказыватьПриНачалеРаботыExtendedTooltip" id="14"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Информация</v8:content>
+			</v8:item>
+		</Title>
+		<AutoTitle>false</AutoTitle>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<CommandSet>
+			<ExcludedCommand>Abort</ExcludedCommand>
+			<ExcludedCommand>Cancel</ExcludedCommand>
+			<ExcludedCommand>CustomizeForm</ExcludedCommand>
+			<ExcludedCommand>Ignore</ExcludedCommand>
+			<ExcludedCommand>No</ExcludedCommand>
+			<ExcludedCommand>OK</ExcludedCommand>
+			<ExcludedCommand>RestoreValues</ExcludedCommand>
+			<ExcludedCommand>Retry</ExcludedCommand>
+			<ExcludedCommand>SaveValues</ExcludedCommand>
+			<ExcludedCommand>Yes</ExcludedCommand>
+		</CommandSet>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<CommandBar name="ВерхняяПанель" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Верхняя панель</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ВерхняяПанельExtendedTooltip" id="9"/>
+				<ChildItems>
+					<Button name="ФормаНазад" id="1">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаНазадExtendedTooltip" id="10"/>
+					</Button>
+					<Button name="ФормаВперед" id="2">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаВпередExtendedTooltip" id="11"/>
+					</Button>
+					<ButtonGroup name="БезПодменю" id="8">
+						<ExtendedTooltip name="БезПодменюExtendedTooltip" id="12"/>
+						<ChildItems>
+							<Button name="ГлавнаяСтраница" id="17">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ГлавнаяСтраницаРасширеннаяПодсказка" id="18"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<Popup name="Подменю1" id="19">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обучение</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Подменю1РасширеннаяПодсказка" id="20"/>
+					</Popup>
+					<Popup name="Подменю2" id="21">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поддержка</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Подменю2РасширеннаяПодсказка" id="22"/>
+					</Popup>
+					<Popup name="Подменю3" id="23">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Предприятие 8</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Подменю3РасширеннаяПодсказка" id="24"/>
+					</Popup>
+					<Popup name="Подменю4" id="25">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Справочная информация</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Подменю4РасширеннаяПодсказка" id="26"/>
+					</Popup>
+					<Popup name="Подменю5" id="27">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Единый семинар</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="Подменю5РасширеннаяПодсказка" id="28"/>
+					</Popup>
+				</ChildItems>
+			</CommandBar>
+			<HTMLDocumentField name="ВебСодержимое" id="3">
+				<TitleLocation>None</TitleLocation>
+				<Width>95</Width>
+				<Height>25</Height>
+				<ContextMenu name="ВебСодержимоеКонтекстноеМеню" id="4"/>
+				<ExtendedTooltip name="ВебСодержимоеExtendedTooltip" id="13"/>
+			</HTMLDocumentField>
+			<CheckBoxField name="ПоказыватьПриНачалеРаботы" id="5">
+				<TitleLocation>Right</TitleLocation>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>При отключении флажка информация не будет показываться месяц или до следующего обновления.</v8:content>
+					</v8:item>
+				</ToolTip>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="ПоказыватьПриНачалеРаботыКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ПоказыватьПриНачалеРаботыExtendedTooltip" id="14"/>
+			</CheckBoxField>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

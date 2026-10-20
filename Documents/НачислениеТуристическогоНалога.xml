@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="cfab1ce8-1f51-49eb-8b10-a66e2c5710a7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачислениеТуристическогоНалога" category="Object">
+				<xr:TypeId>7f46a5fb-608a-47d6-9c7a-eab037d509a7</xr:TypeId>
+				<xr:ValueId>0b33ed85-8dd5-477a-b141-4d69a83cefb1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачислениеТуристическогоНалога" category="Ref">
+				<xr:TypeId>fdb7502d-61ff-41e1-b629-9d99f63ebf38</xr:TypeId>
+				<xr:ValueId>b8e8a4c8-7f9a-41e9-9bf0-dd9529016c84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачислениеТуристическогоНалога" category="Selection">
+				<xr:TypeId>7cbd0aab-6f6c-4e9c-a853-9c6abbc14ab5</xr:TypeId>
+				<xr:ValueId>547a5417-bbca-4b4f-88de-0f94b243a35e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачислениеТуристическогоНалога" category="List">
+				<xr:TypeId>bb3ca447-509d-4555-91d9-5590a1520537</xr:TypeId>
+				<xr:ValueId>e0906868-eae4-46f5-ba76-567f4a94c14e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачислениеТуристическогоНалога" category="Manager">
+				<xr:TypeId>e476c0cc-d0f6-474f-832c-e4e93724dff5</xr:TypeId>
+				<xr:ValueId>52c9d704-3dd3-47fc-86c3-1d6e94b4a886</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НачислениеТуристическогоНалога</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5dfc06a7-b505-4e43-ad5d-8a8ff29b166a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="09874b77-44ac-4681-bc5c-3843183664e5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>68da351e-60ef-4ce0-9d97-47b195664046</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="169fc702-a536-48c3-83e7-77a26e27e55d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5fb74901-8f89-423e-bccc-4b0f16ceedff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

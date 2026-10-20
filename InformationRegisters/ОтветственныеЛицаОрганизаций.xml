@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="4d840d4a-9e0e-4022-9f12-35f9e1a203c4">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОтветственныеЛицаОрганизаций" category="Record">
+				<xr:TypeId>f360b234-02f1-453d-a412-fe021f4f0c89</xr:TypeId>
+				<xr:ValueId>93f2de0c-cf06-4f43-b819-d38052e6883d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОтветственныеЛицаОрганизаций" category="Manager">
+				<xr:TypeId>8f43e41d-1fe0-4991-8197-83bc5239adc1</xr:TypeId>
+				<xr:ValueId>6f658e96-bf6b-4a49-816f-b166b0be547d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОтветственныеЛицаОрганизаций" category="Selection">
+				<xr:TypeId>feef383d-1a86-449c-bf4d-ca6031538215</xr:TypeId>
+				<xr:ValueId>b95cdab5-3040-4d3c-b106-782527f9e519</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОтветственныеЛицаОрганизаций" category="List">
+				<xr:TypeId>b11329a3-5b11-4fe2-8e37-135ece71898b</xr:TypeId>
+				<xr:ValueId>117e5569-357c-4f75-8aac-327f7fe5f7ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОтветственныеЛицаОрганизаций" category="RecordSet">
+				<xr:TypeId>0302566d-b240-4e20-848f-4433de89d624</xr:TypeId>
+				<xr:ValueId>6392951e-2240-430f-9590-153a62b54531</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОтветственныеЛицаОрганизаций" category="RecordKey">
+				<xr:TypeId>d9e00d9e-ccc2-44e7-97ac-f59cf318b2d7</xr:TypeId>
+				<xr:ValueId>9cfa2ac8-1d94-438a-8bd8-82c455433daa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОтветственныеЛицаОрганизаций" category="RecordManager">
+				<xr:TypeId>8d6bd29e-494e-42f4-94b3-fb9e62d00976</xr:TypeId>
+				<xr:ValueId>c02226e4-122c-4dd8-8de1-0337e6be92bc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтветственныеЛицаОрганизаций</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e32f460d-195e-403d-9789-a22b60b1e1a4</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

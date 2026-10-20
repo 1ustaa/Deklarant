@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1ac1e010-0664-4fce-8ffd-be6c44aa1ee0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтражениеНДСКВычету" category="Object">
+				<xr:TypeId>701d151c-6ef0-4569-a5d3-d2749caa421a</xr:TypeId>
+				<xr:ValueId>7b0fd315-9f5f-425d-9ddd-83010a551bf4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтражениеНДСКВычету" category="Ref">
+				<xr:TypeId>a1afe878-a6b7-459f-84de-060aaa077823</xr:TypeId>
+				<xr:ValueId>5e94e759-11cb-4e26-ab1b-7624e926f5b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтражениеНДСКВычету" category="Selection">
+				<xr:TypeId>88e0de20-e188-49bb-a673-c1ffd4707a3f</xr:TypeId>
+				<xr:ValueId>0aca96e0-ea13-418b-85d3-cf5aca36e9ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтражениеНДСКВычету" category="List">
+				<xr:TypeId>d8eccf9d-cf83-4367-ab43-c8a440adfa48</xr:TypeId>
+				<xr:ValueId>2c6c24c4-3813-4b3c-93d3-4397da062add</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтражениеНДСКВычету" category="Manager">
+				<xr:TypeId>661453e2-30e2-40d4-ae6c-6fe810cebc2e</xr:TypeId>
+				<xr:ValueId>46e19b53-63b3-40e1-aa83-c132762aa6b8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтражениеНДСКВычету</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>93b48b52-b821-4930-9676-cabcad4adb12</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f8e94944-51ef-40a5-bb98-4f1f2e5a42bd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>385db0e2-6920-4c0d-932e-1e642a7c9839</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="89a8dd19-1a90-493f-b1b1-5a19217e84fe">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>629b746b-425b-490b-bd3b-5b57522cfe08</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

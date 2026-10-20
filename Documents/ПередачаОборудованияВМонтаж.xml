@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="bd57d66a-bc41-4d5c-bbff-9169f4fab406">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаОборудованияВМонтаж" category="Object">
+				<xr:TypeId>4715e112-f6f6-4307-9fd5-395228bbea33</xr:TypeId>
+				<xr:ValueId>fb55c0b0-b6dd-44c0-95a3-f95308445e10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаОборудованияВМонтаж" category="Ref">
+				<xr:TypeId>c0fb1fe2-53e5-461d-8458-7977e0753000</xr:TypeId>
+				<xr:ValueId>4fa1cace-5ab2-4d67-aa4b-9058aaf31dc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаОборудованияВМонтаж" category="Selection">
+				<xr:TypeId>9ae225fc-556c-4185-b177-b615586a5069</xr:TypeId>
+				<xr:ValueId>85a827c6-1970-4971-8151-3187d9513fcc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаОборудованияВМонтаж" category="List">
+				<xr:TypeId>ece06f86-7c6c-4697-85b8-11742470d0f5</xr:TypeId>
+				<xr:ValueId>6b53b69f-ab3b-405d-9b69-2244ad9fd96a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаОборудованияВМонтаж" category="Manager">
+				<xr:TypeId>0edc97d2-88a5-4ddb-80e0-d2ff85128771</xr:TypeId>
+				<xr:ValueId>945f3c4c-890e-4982-bcf3-398a1fb2a35e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПередачаОборудованияВМонтаж</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5090a026-1905-481c-a2ad-14615a34b4d4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

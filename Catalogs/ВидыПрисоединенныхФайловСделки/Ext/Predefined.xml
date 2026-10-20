@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="7c245d01-8354-4019-b6f8-fe2e1e81947c">
+		<Name>АктПеретарки</Name>
+		<Code>000000009</Code>
+		<Description>Акт перетарки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c24df8db-4b6e-4825-97b1-fa63c7534cf2">
+		<Name>ДТ</Name>
+		<Code>000000014</Code>
+		<Description>ДТ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ae8dd5fc-c173-4aab-84ea-b281dbe851ef">
+		<Name>КоносаментСПечатью</Name>
+		<Code>000000011</Code>
+		<Description>Коносамент с печатью</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="27361950-f2a0-4155-a6e0-3565195a4cdc">
+		<Name>ПогрузПоручениеЭкспорт</Name>
+		<Code>000000012</Code>
+		<Description>Погруз поручение (экспорт)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="72809d0b-33a8-4954-991d-c832e2b44bec">
+		<Name>ПоручениеРавноПриложение</Name>
+		<Code>000000013</Code>
+		<Description>Поручение = приложение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="439ee645-a776-4a30-8de7-857ec6e95731">
+		<Name>ПоручениеЭкспедитораСПодписью</Name>
+		<Code>000000006</Code>
+		<Description>Поручение экспедитора с подписью</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="944f725e-bb77-4424-ae72-cd0fc6a02039">
+		<Name>ПриложениеСПодписьюСДвухСторон</Name>
+		<Code>000000008</Code>
+		<Description>Приложение с подписью с двух сторон</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="60f11787-cb7c-4427-aec5-23fb09b47033">
+		<Name>ТТНСПечатьюИПодписью</Name>
+		<Code>000000002</Code>
+		<Description>ТТН с печатью и подписью</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9deb8e3d-8c94-4334-bbad-c1c0bc904aca">
+		<Name>ЭкспедиторскаяРасписка</Name>
+		<Code>000000010</Code>
+		<Description>Экспедиторская расписка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="b4182292-3b75-44aa-8437-ad59152f2d82">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыДокументовЭДО" category="Object">
+				<xr:TypeId>1b2e99ff-5890-426d-87ca-8e3a89a19537</xr:TypeId>
+				<xr:ValueId>e39a53de-97fd-4bf1-aa4c-ad9d4061690a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыДокументовЭДО" category="Ref">
+				<xr:TypeId>89084d58-e797-434a-9369-a7f1357edaca</xr:TypeId>
+				<xr:ValueId>e8944eb1-9601-49ab-9f84-c6c1b728f8dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыДокументовЭДО" category="Selection">
+				<xr:TypeId>b46afcd3-c49e-475e-bd7f-e6f988246165</xr:TypeId>
+				<xr:ValueId>946b1cee-136d-4ef2-8d98-72b2aabe6710</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыДокументовЭДО" category="List">
+				<xr:TypeId>e9d2ee8e-2d2d-4782-9e6d-a6852eb37c72</xr:TypeId>
+				<xr:ValueId>48a3bf65-5f06-483c-a49d-dba2e5caacdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыДокументовЭДО" category="Manager">
+				<xr:TypeId>06a67d38-788b-4c38-94aa-670e92a877db</xr:TypeId>
+				<xr:ValueId>090ddbbb-2dbb-4479-9c88-72e356f21770</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыДокументовЭДО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>95620877-b445-423d-8ba0-5c244c0b9b8c</ExtendedConfigurationObject>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

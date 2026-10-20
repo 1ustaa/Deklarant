@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="dffac147-5089-4229-b2a0-b8c722e8e315">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеНДС" category="Object">
+				<xr:TypeId>b6233893-9fe6-47b7-8607-e243535d332a</xr:TypeId>
+				<xr:ValueId>17cb30bb-5f88-4fed-866f-7fd3e0b80021</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеНДС" category="Ref">
+				<xr:TypeId>ed245e9d-4df2-429f-bc68-00cc7c6592af</xr:TypeId>
+				<xr:ValueId>f8d3d153-3583-47ad-b30e-4a5f8d81fc3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеНДС" category="Selection">
+				<xr:TypeId>c68e9b33-547d-4017-8ceb-687d427fd6a9</xr:TypeId>
+				<xr:ValueId>5f2dd33c-fcdb-455d-a315-3ae1559b931f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеНДС" category="List">
+				<xr:TypeId>bf3c3c3d-cfd4-4921-bce9-8cff589bce9d</xr:TypeId>
+				<xr:ValueId>b4670b96-beee-405b-b646-174f6f44bc8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеНДС" category="Manager">
+				<xr:TypeId>3a5003e7-1563-407d-b6b7-dcc634bf737a</xr:TypeId>
+				<xr:ValueId>cc7334ea-fa53-4168-b529-6f64401b77ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>19b4a104-bc03-4acb-892b-00f1347970dd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

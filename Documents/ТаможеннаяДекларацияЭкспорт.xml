@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e4fe039a-4a7f-445c-b987-4c08100c928e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТаможеннаяДекларацияЭкспорт" category="Object">
+				<xr:TypeId>51a17647-032c-462c-85cc-4cc08f8342a5</xr:TypeId>
+				<xr:ValueId>c1c00528-0729-4760-81cb-6bdcb7686413</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТаможеннаяДекларацияЭкспорт" category="Ref">
+				<xr:TypeId>a5e3a520-c0ca-4c22-bfd5-443d7e3dd53e</xr:TypeId>
+				<xr:ValueId>5c13c642-3ea5-4a25-b3f9-43b5a7430f29</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТаможеннаяДекларацияЭкспорт" category="Selection">
+				<xr:TypeId>fd0aab79-b75f-40d6-b339-57200cd5e7c3</xr:TypeId>
+				<xr:ValueId>9bdd90bc-89f9-454d-92f4-b2e1d3a5d00f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТаможеннаяДекларацияЭкспорт" category="List">
+				<xr:TypeId>5cef6368-5ab2-42a2-b85f-c811665268fa</xr:TypeId>
+				<xr:ValueId>fb97d24f-da6f-4aa4-a19c-ce7d2d57229b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТаможеннаяДекларацияЭкспорт" category="Manager">
+				<xr:TypeId>3c76f61b-ffe5-41ad-b083-1b718e57453a</xr:TypeId>
+				<xr:ValueId>e399a666-2a7a-4f9f-af64-60a99ac8e648</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТаможеннаяДекларацияЭкспорт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>30f233d2-0f19-4714-950f-ecb487c9c44f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

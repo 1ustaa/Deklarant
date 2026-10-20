@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e7f031de-d2ee-4dda-94c4-c54beff3935b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыплатыСамозанятым" category="Object">
+				<xr:TypeId>3457cf7f-7eaf-4705-ae81-a42d6481de3e</xr:TypeId>
+				<xr:ValueId>6a7bd571-26e8-4e6a-a2f8-e162fb2cf582</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыплатыСамозанятым" category="Ref">
+				<xr:TypeId>fe0f06f5-79d3-4451-b856-21386ec71421</xr:TypeId>
+				<xr:ValueId>c293f391-4e6d-4272-8223-6fa1bacc689a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыплатыСамозанятым" category="Selection">
+				<xr:TypeId>f7d9d8a9-5124-495e-9c37-7b6fab7747ea</xr:TypeId>
+				<xr:ValueId>c4d7c7a7-6151-4039-a09b-d59dafee9e6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыплатыСамозанятым" category="List">
+				<xr:TypeId>f2f5253a-42a8-42ea-823f-1fdfc1e008d9</xr:TypeId>
+				<xr:ValueId>a3e7481c-2471-48ce-ad42-29340b44916e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыплатыСамозанятым" category="Manager">
+				<xr:TypeId>b39e87cb-bbf2-4953-90c0-514bd7873ff9</xr:TypeId>
+				<xr:ValueId>89f4d1c9-a139-4cdc-b879-3ee8dbe09d87</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыплатыСамозанятым</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a9a48caf-4dd0-41ab-8459-623aadc86555</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="86c82fff-94fb-419b-ada0-8d7dcc803b97">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВыплатыСамозанятым.Выплаты" category="TabularSection">
+						<xr:TypeId>886993f8-02ee-4dda-b631-ddda1d806a4f</xr:TypeId>
+						<xr:ValueId>32e9dd98-b2a0-458f-a5b4-dc03c68837d8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВыплатыСамозанятым.Выплаты" category="TabularSectionRow">
+						<xr:TypeId>4131031e-df0f-443d-a714-479f4798a364</xr:TypeId>
+						<xr:ValueId>d4ed8427-409a-4710-a213-5082563e8d25</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>111202f9-1bea-4acb-8643-7eb0c62fa954</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d6d6a252-eb7e-4cc6-8e82-407246bc3cf6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Контрагент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>5fa6eaa0-9876-4383-9730-478e9ab77fc5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

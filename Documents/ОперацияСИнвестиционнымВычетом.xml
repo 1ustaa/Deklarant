@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a0b92593-490e-4a19-a9ac-801112ddd3d0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияСИнвестиционнымВычетом" category="Object">
+				<xr:TypeId>2438c315-e4fa-4b8c-baae-7ea28c768a86</xr:TypeId>
+				<xr:ValueId>796d95d9-e6ed-493e-ac3f-9bfb1d821ada</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияСИнвестиционнымВычетом" category="Ref">
+				<xr:TypeId>f14ed0af-b435-449d-be59-73c42237dba6</xr:TypeId>
+				<xr:ValueId>f5121ca0-4605-48e1-8311-815e87db2bdc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияСИнвестиционнымВычетом" category="Selection">
+				<xr:TypeId>7bdbe756-094e-4027-8e42-5989b725b658</xr:TypeId>
+				<xr:ValueId>d74d177c-ca6a-419d-9180-e2c6611244bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияСИнвестиционнымВычетом" category="List">
+				<xr:TypeId>3e3744bd-aafb-4e92-85c7-ed7e54dbb602</xr:TypeId>
+				<xr:ValueId>58c7d7d1-ff02-442f-88e9-ab6f2239b35d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияСИнвестиционнымВычетом" category="Manager">
+				<xr:TypeId>7b526a66-8667-4120-aa6b-ea89e966c68f</xr:TypeId>
+				<xr:ValueId>59f09753-bd81-4f4f-88cf-34bc9b01da36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОперацияСИнвестиционнымВычетом</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a06f5b13-a1d8-4930-ab64-50559171efa3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="45aef8b9-fc7d-49d1-9680-918b56b134a0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f60ca070-f142-4107-be94-cd78f5909de5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

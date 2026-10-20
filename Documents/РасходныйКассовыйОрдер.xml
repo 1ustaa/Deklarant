@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="23534e93-b287-42a3-aa95-da9f71d3575a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РасходныйКассовыйОрдер" category="Object">
+				<xr:TypeId>52581a2f-45a3-40ad-baa1-01da503aabf6</xr:TypeId>
+				<xr:ValueId>f2f80dbf-f198-4bee-86a4-f2d27a929fd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РасходныйКассовыйОрдер" category="Ref">
+				<xr:TypeId>f6abe118-490e-4897-8da7-104a1f90b685</xr:TypeId>
+				<xr:ValueId>4f3c64a6-b332-40ac-a16a-e636e95f4609</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РасходныйКассовыйОрдер" category="Selection">
+				<xr:TypeId>388348e5-6bfe-43cc-aa24-af152863baf7</xr:TypeId>
+				<xr:ValueId>9b3bcf27-5c31-4b78-8230-df7628483fd7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РасходныйКассовыйОрдер" category="List">
+				<xr:TypeId>7216eb70-c5ab-4ece-880f-7bac09963a32</xr:TypeId>
+				<xr:ValueId>16a68a28-d607-468f-a198-b06ca8c6a922</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РасходныйКассовыйОрдер" category="Manager">
+				<xr:TypeId>93e1248d-8b4b-4c66-8f41-fb0262eddc60</xr:TypeId>
+				<xr:ValueId>77944364-5e33-4a5e-95ad-73b8d02a9310</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасходныйКассовыйОрдер</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cce7e1cd-0d24-4694-8449-33549a195c25</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7172a891-d7f1-4288-a77e-61544e18ff45">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>39c0de2d-6259-4954-9f69-74be08b8f866</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="60e83069-dd84-46a6-8478-c203d0eeb61e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РасходныйКассовыйОрдер.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>930752c0-a735-48bf-93db-1a482273015a</xr:TypeId>
+						<xr:ValueId>eecb7c9b-ec4c-459c-837a-45c9a1e31296</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РасходныйКассовыйОрдер.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>f8e4170f-72a4-419f-80f1-d40d7b586ee6</xr:TypeId>
+						<xr:ValueId>86bf727d-84f0-42cd-bf88-526163f759c5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f170c456-8a96-44b7-a5e6-1c34cb607549</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c56b68b7-55a1-4d29-95ac-580ffbd40b6b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорКонтрагента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>665124b2-6b59-4952-b8b7-c2d999ec7eae</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

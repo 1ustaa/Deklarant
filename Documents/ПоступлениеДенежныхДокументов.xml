@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="5f487d1f-361c-4ffb-80e5-f356a7d1542f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеДенежныхДокументов" category="Object">
+				<xr:TypeId>0285006b-6acf-419b-82d6-3015903713f5</xr:TypeId>
+				<xr:ValueId>d45b2807-07bc-4734-829e-c00b3fabd349</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеДенежныхДокументов" category="Ref">
+				<xr:TypeId>ef3748c7-2927-4012-8110-c8bac8251b22</xr:TypeId>
+				<xr:ValueId>915f9bc0-03b3-4ec7-98ea-f17cd487573c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеДенежныхДокументов" category="Selection">
+				<xr:TypeId>7f16ddd5-0da6-4a28-a455-061f89ba7104</xr:TypeId>
+				<xr:ValueId>a595afe2-5851-4005-ac2c-e841942a4d1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеДенежныхДокументов" category="List">
+				<xr:TypeId>d1da4a05-96f3-491b-8354-cf28fb5a82e9</xr:TypeId>
+				<xr:ValueId>2d92f586-7b04-4c64-96eb-24e61a60e613</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеДенежныхДокументов" category="Manager">
+				<xr:TypeId>ac2076ca-f6bf-4230-bbb1-1b5644eabadc</xr:TypeId>
+				<xr:ValueId>b1b84a83-fab5-482e-8534-e6f7d097caff</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПоступлениеДенежныхДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fcc1410c-31d6-4ec2-8a5a-c6f16cdfad82</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c2a60748-7b67-4c05-b6ac-ea431aeea458">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c9869796-431e-415a-92ef-fffaea2ff2e4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9d793996-c86f-4bf2-a0a2-9357901c59c7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6c31bf59-e07d-49f1-af94-c9fa818eaad2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

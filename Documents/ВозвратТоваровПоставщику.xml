@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="032329c6-3fb2-4f53-ac37-246c5f23e49f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратТоваровПоставщику" category="Object">
+				<xr:TypeId>4e41d73f-7883-4675-b698-5c1f90928bd3</xr:TypeId>
+				<xr:ValueId>6df17f59-4234-47ed-9c03-0a51d7f1b15f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратТоваровПоставщику" category="Ref">
+				<xr:TypeId>19fe1c85-82d6-4ee2-83e7-7c770f7110e4</xr:TypeId>
+				<xr:ValueId>2934244b-4eaf-4a4c-80eb-0a6f1b8ad215</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратТоваровПоставщику" category="Selection">
+				<xr:TypeId>f9212841-10d8-47f5-832c-f5e6dc172cc0</xr:TypeId>
+				<xr:ValueId>ae292a37-5043-4eb4-8708-e08ee7fe9a58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратТоваровПоставщику" category="List">
+				<xr:TypeId>7d7dc85e-b630-4a30-8040-f1f353bcf2bc</xr:TypeId>
+				<xr:ValueId>b0b4366d-31a4-48aa-99b8-a91daf44f249</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратТоваровПоставщику" category="Manager">
+				<xr:TypeId>2dcd77fc-cbb3-4cf4-9005-d7ba688f00a0</xr:TypeId>
+				<xr:ValueId>4c7dd9c5-c6ef-46fe-bfea-87aa3f047438</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратТоваровПоставщику</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>023dc102-2024-4276-ab96-4d20d6038040</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="71bdddca-ad10-452f-8a44-633fad9fbe30">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6ae0be45-02b5-4482-b0ad-65cb218d2605</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="07c058cd-a676-4157-bcc6-0d32a82c07ea">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>23ebc3c6-31f8-4922-815e-e2ac8e69940b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="bfb49b0a-cc14-406a-aa14-28796c386195">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратТоваровПоставщику.Товары" category="TabularSection">
+						<xr:TypeId>a826ce0a-3569-4805-8c53-baca8de7cfa1</xr:TypeId>
+						<xr:ValueId>81268af4-e78a-417a-9a49-97c6b6c21f8b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратТоваровПоставщику.Товары" category="TabularSectionRow">
+						<xr:TypeId>4023547b-bf2d-4764-9d36-80b3f6cabb97</xr:TypeId>
+						<xr:ValueId>7403302a-e28d-4fa8-956b-1590d8c41e3b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>219b3e9b-bc56-48c5-a481-56bc23a2491a</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c99e34f4-99ea-4557-87bc-a248186ba33b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Контрагент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>bc4834b6-8998-472a-a897-8a1e6cbab1d1</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d52ed5d9-fa75-4330-8d8f-5b9c4f9bdb0b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорКонтрагента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f3e27a9d-4ca3-4aaa-8b2c-fd72b71593b2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

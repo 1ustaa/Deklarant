@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="6997a45d-deb2-485c-9114-e5cd80dba15f">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СрокиОплатыДокументов" category="Record">
+				<xr:TypeId>04565ecf-90bf-44c4-95ab-25f825e31d05</xr:TypeId>
+				<xr:ValueId>6bf9e70a-d870-4a29-a7f2-04481ad7e197</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СрокиОплатыДокументов" category="Manager">
+				<xr:TypeId>4203adb9-087d-46d9-b416-cae1a5699750</xr:TypeId>
+				<xr:ValueId>2e8b1633-9ea8-4ab2-afb5-f97ac22b189b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СрокиОплатыДокументов" category="Selection">
+				<xr:TypeId>bea64572-e943-4cf9-9ba2-554cf9026ff7</xr:TypeId>
+				<xr:ValueId>2ae1ef1a-a104-4cc0-a1db-f3686df87e4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СрокиОплатыДокументов" category="List">
+				<xr:TypeId>e5814618-f44a-44ed-840d-08f44a5141ca</xr:TypeId>
+				<xr:ValueId>45150b3e-7fc6-4109-ab86-3558f78347a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СрокиОплатыДокументов" category="RecordSet">
+				<xr:TypeId>30ff9c87-8ab9-40b4-ab4b-098225cd4c07</xr:TypeId>
+				<xr:ValueId>48984256-d083-4b18-aee7-2892af3ed4be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СрокиОплатыДокументов" category="RecordKey">
+				<xr:TypeId>beba1f6b-2745-4944-8e89-0fba44654b12</xr:TypeId>
+				<xr:ValueId>3b0ee104-e1bb-4648-bd26-8663918daa64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СрокиОплатыДокументов" category="RecordManager">
+				<xr:TypeId>a9988794-88ea-4bcb-ad20-6069f51d4a62</xr:TypeId>
+				<xr:ValueId>deefdf70-5a26-47dc-a076-9b4edaec95f8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СрокиОплатыДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>579ba7c8-6220-4910-878a-1e317e67dd95</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="cc76b8be-bac1-4020-89e5-c25458bfd2e5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СрокОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1fea1239-18e4-4c19-a444-59d511d69606</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="b0fd8b8b-5197-4d36-94aa-aebfdfc0c4fc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e4c5c654-7133-4968-9bf8-8facac1843cf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="bc6b94b8-735e-4a7a-b154-651c16ba0bb8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Документ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>71be73a2-8c0d-420c-9dfe-b142c223caa7</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

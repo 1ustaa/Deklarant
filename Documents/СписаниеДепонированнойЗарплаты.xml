@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0108ba6b-d36f-458d-863f-a1a1bf22421a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеДепонированнойЗарплаты" category="Object">
+				<xr:TypeId>8db86e57-8557-400b-b5ce-8eaf00f5e6a6</xr:TypeId>
+				<xr:ValueId>6478fb84-4cb9-438f-aca2-88d3b349dd4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеДепонированнойЗарплаты" category="Ref">
+				<xr:TypeId>995f3e16-1eea-4949-99b5-08ed7daf9996</xr:TypeId>
+				<xr:ValueId>13ac7c37-9e73-4069-958d-3af059a02e77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеДепонированнойЗарплаты" category="Selection">
+				<xr:TypeId>1ee65f42-9063-4bfe-be06-382d1a95fc10</xr:TypeId>
+				<xr:ValueId>282d77c3-20b5-486b-a5eb-e1306d9c9254</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеДепонированнойЗарплаты" category="List">
+				<xr:TypeId>5d130797-d7d7-4f07-a459-84b08edbe3f0</xr:TypeId>
+				<xr:ValueId>52206513-dae0-471a-bb73-98ecf3ef708b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеДепонированнойЗарплаты" category="Manager">
+				<xr:TypeId>85aea2ae-51e9-4ac7-81db-b36ee5234d40</xr:TypeId>
+				<xr:ValueId>51f37188-780a-42f8-9e65-8b76a4cf26c5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеДепонированнойЗарплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>820dd00c-0419-4faa-9426-4b639a281289</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

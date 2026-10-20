@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fd0521b6-b1e6-4a13-8f2d-ba28249ce648">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачислениеПеней" category="Object">
+				<xr:TypeId>407a45ab-f3f2-4da5-8633-31d2885ea19c</xr:TypeId>
+				<xr:ValueId>67ed55c5-be93-4bf0-99c1-26ee87ba48ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачислениеПеней" category="Ref">
+				<xr:TypeId>3e86c6db-6b13-4e4c-adc7-68f9a49e9917</xr:TypeId>
+				<xr:ValueId>27c7f119-ef81-4074-ae95-5d4735039449</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачислениеПеней" category="Selection">
+				<xr:TypeId>b2ffa0c6-0fde-4616-8ec2-6d365fdbf7da</xr:TypeId>
+				<xr:ValueId>a9747b79-7836-4841-9296-96b6067c34fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачислениеПеней" category="List">
+				<xr:TypeId>6b486e8b-90c2-4c09-b4a5-99317b0fc4e3</xr:TypeId>
+				<xr:ValueId>361eba25-f8a1-43d5-8f38-4816e2b2500a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачислениеПеней" category="Manager">
+				<xr:TypeId>4400e9e2-f627-44c5-865d-7182ab5e3d2e</xr:TypeId>
+				<xr:ValueId>0f088dc4-c237-470d-b882-470d052235eb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НачислениеПеней</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7f4680a8-3ddb-4a32-90c1-18b82dc5f4ac</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7e5af025-ccf7-4aef-84aa-1060df2c3c99">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ae044990-ca1d-48de-95ae-e8ae6056a2bd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="83b5197f-183a-4c1e-828d-ebbfe43ede8f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0d391c9c-58fe-40d3-9dc1-9f308357a770</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="2cbadacf-965b-48d4-9993-84bce8fc6006">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ОжидаемаяОплатаОтПокупателей" category="Object">
+				<xr:TypeId>aee2a146-5065-440a-a64b-930b55085a07</xr:TypeId>
+				<xr:ValueId>3ff3e04e-6c7b-4e1a-b1c0-2b226b3c877b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ОжидаемаяОплатаОтПокупателей" category="Manager">
+				<xr:TypeId>cdc6dc6f-b4f8-45cc-a377-8fe8b5aee478</xr:TypeId>
+				<xr:ValueId>b93d14ea-3f64-4e31-80ab-f8ee092865e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОжидаемаяОплатаОтПокупателей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5e1ba6b3-5307-4045-8472-6410bc851877</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="15882ca7-b125-41ae-87c0-f5826de4f6c5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c1de382f-9bc8-4589-8760-0e2e59f82e52</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="8f2abaa3-3ee8-4d34-945d-f2903a3aac94">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ОжидаемаяОплатаОтПокупателей.БухОстатки" category="TabularSection">
+						<xr:TypeId>f2c8752b-6c84-4763-a738-b3882ed2058e</xr:TypeId>
+						<xr:ValueId>1ed1e81f-ebbe-4109-9b7f-c163e3f03d85</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОжидаемаяОплатаОтПокупателей.БухОстатки" category="TabularSectionRow">
+						<xr:TypeId>2eb61538-cab5-4214-b35d-9b78ea6e2829</xr:TypeId>
+						<xr:ValueId>fe89362c-45bb-4dd1-8485-e9f47d91f547</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БухОстатки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>81eb0752-a703-4c41-aab0-c80ce282d8d1</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="754c6439-94de-4888-a96d-0cc13f1cba9b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаДолг</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>03231082-3b13-4841-8a14-f95755105069</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="00b607ac-4475-4476-8363-571700ce8f14">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаПредоплата</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f40a9582-d372-482e-8f5d-3d8e8f3f5fa3</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1f7acf76-75a8-4f15-864e-670e83d1b3b2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СрокОплаты</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>eec6c773-867e-4a8a-bdd3-d56d756f94c0</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="87b107df-d0b6-4313-a480-75e726290681">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7e1da88e-ab77-4a61-8a03-b6a9a7853afe</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b0ac06fd-7d45-4b49-a59d-00e167a946c4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СчетНаОплату</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7555748e-f07f-4654-b94b-4d71e0100526</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.СчетНаОплатуПокупателю</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5e365380-6875-4e25-9d5e-38c6802f3147">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Контрагент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>dfcc6e0b-d8cc-4efb-9af3-ebe484a2ebfb</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ec32df51-45cf-43e9-a01f-96818e68c93c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерТелефона</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>61672ec7-054d-4f9e-980c-66d07012a334</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="47edc4bf-f004-48f5-ba80-fec74f134ea5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЭлектроннаяПочта</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>efd71308-25ea-43a7-a064-95f89522bd02</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b83ad43b-9460-44cc-a9d2-607e8faea450">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Валюта</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7c35c371-f993-44d8-8809-e91c2291aa7d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bb1801b4-b096-4872-886c-f24ff91f982c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>99e7fdcd-f622-4093-b8e0-64714a9ab5c2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

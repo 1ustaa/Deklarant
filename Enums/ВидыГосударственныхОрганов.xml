@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="3a71d207-f8f2-4fc0-ae74-8777e83000f7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыГосударственныхОрганов" category="Ref">
+				<xr:TypeId>89a521b8-3efd-429d-8fee-90b8072d7940</xr:TypeId>
+				<xr:ValueId>acd6067d-09b6-454a-a732-5cfb01e23609</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыГосударственныхОрганов" category="Manager">
+				<xr:TypeId>adbb2c4c-ae52-4dc0-9c48-65760d3d7ee8</xr:TypeId>
+				<xr:ValueId>6fdc3166-3998-4257-8109-6c0ef8b4c23a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыГосударственныхОрганов" category="List">
+				<xr:TypeId>4453d0ac-24c6-4108-a51d-7e623a200c48</xr:TypeId>
+				<xr:ValueId>efc7e322-4187-473a-993e-a1ef9ddda068</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыГосударственныхОрганов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0ca1b2be-5f35-4246-95d7-9b3ea7a4291d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

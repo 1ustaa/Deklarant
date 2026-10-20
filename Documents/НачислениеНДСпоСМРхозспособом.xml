@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6f54bba8-5bba-4bf0-b679-5acefb03e089">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачислениеНДСпоСМРхозспособом" category="Object">
+				<xr:TypeId>fa0fd6c8-68c9-4747-82ec-738d8e78eb25</xr:TypeId>
+				<xr:ValueId>2ea8df52-69b8-4a53-8f8c-b85599dd1a0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачислениеНДСпоСМРхозспособом" category="Ref">
+				<xr:TypeId>0c298f14-7310-4311-8b7c-ce47af2090a6</xr:TypeId>
+				<xr:ValueId>b4780aba-6fd5-465e-a146-64b5c2944505</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачислениеНДСпоСМРхозспособом" category="Selection">
+				<xr:TypeId>d2a3f198-431d-41dd-89be-ff36198852c8</xr:TypeId>
+				<xr:ValueId>1a41cdf4-baad-4131-87b4-cde5f5932dff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачислениеНДСпоСМРхозспособом" category="List">
+				<xr:TypeId>d7f9faff-da86-4af5-821f-19fa98978fa1</xr:TypeId>
+				<xr:ValueId>0c90ed89-50ac-4057-a51f-f0a8b796c9a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачислениеНДСпоСМРхозспособом" category="Manager">
+				<xr:TypeId>51d3aa7c-4fca-4e31-a20b-986ff00e8b0f</xr:TypeId>
+				<xr:ValueId>63863c05-2801-4f6b-923e-89947edcb67f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НачислениеНДСпоСМРхозспособом</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fd47488a-51ad-443b-99ef-51895334cc73</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

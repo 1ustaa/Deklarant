@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e349e044-6fa6-4d9d-a137-be26882752e7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыОтгрузки" category="Ref">
+				<xr:TypeId>8a203786-4d08-4db5-bcd9-932966f575ed</xr:TypeId>
+				<xr:ValueId>18e6c73e-5588-4417-ac39-a0220b2d6179</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыОтгрузки" category="Manager">
+				<xr:TypeId>f3c863f1-fae0-4e37-ae24-8838e60d4c8d</xr:TypeId>
+				<xr:ValueId>41cfce1e-a106-4da8-afe9-8bda7b887a6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыОтгрузки" category="List">
+				<xr:TypeId>e1d6aea8-403c-4640-9067-7ef602c9408c</xr:TypeId>
+				<xr:ValueId>a0eb3962-f93e-44b5-a9a2-b15dd7add077</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыОтгрузки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>47ec37ad-ad41-431b-a1c0-d141c1abac3a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e8bba8b5-6de9-428c-9311-067b40959a1e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отгружен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>57a7505e-7bb8-4343-b95c-eac8eb2b774c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f0437e88-e001-412c-b670-148608d9e50d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыУчетаНДС" category="Ref">
+				<xr:TypeId>f8ffe001-34a0-4d0c-afaa-cd27d9757d03</xr:TypeId>
+				<xr:ValueId>f79ef49f-069e-4320-bdd9-e0ff2d691761</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыУчетаНДС" category="Manager">
+				<xr:TypeId>73a01fd7-1256-4384-86c1-fbf7ca0679a2</xr:TypeId>
+				<xr:ValueId>5f2bbb0f-2ef9-4791-80af-f25648cdeca3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыУчетаНДС" category="List">
+				<xr:TypeId>ab90858e-88bf-45f6-a621-ea63f0c0b361</xr:TypeId>
+				<xr:ValueId>65503120-ff38-4d30-a259-99b16d432d4c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыУчетаНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>29dc8324-d497-4a2a-ae55-7f396176731f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b9ec96ff-83d0-462b-86f1-22936b194797">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УчитываетсяВCтоимости</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>515c5982-f390-4db4-9f2f-a7ceacadf5d0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="063f7509-08bf-462e-ae5e-720acd941145">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПринимаетсяКВычету</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>db60f37d-e10b-4fd0-9995-5a5175f18c97</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a93df043-0550-4026-8296-74a3d883dee6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Распределяется</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>186f7123-ca6b-4c18-b9f7-30ba5e0b2915</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="414dfd82-e63d-49b1-bfa6-4d3f88083882">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДляОперацийПо0</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cb0b6473-757a-401e-8b47-491cc8d75a3c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

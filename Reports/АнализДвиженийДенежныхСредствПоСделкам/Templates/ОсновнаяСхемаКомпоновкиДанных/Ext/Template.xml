@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВзаиморасчетов</dataPath>
+			<field>СуммаВзаиморасчетов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОплаты</dataPath>
+			<field>ДокументОплаты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ оплаты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетНаОплату</dataPath>
+			<field>СчетНаОплату</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сделка</dataPath>
+			<field>Сделка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сделка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяДвиженияДенежныхСредств</dataPath>
+			<field>СтатьяДвиженияДенежныхСредств</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статья движения денежных средств</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПолучательПлательщик</dataPath>
+			<field>ПолучательПлательщик</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получатель/плательщик</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДвижения</dataPath>
+			<field>ВидДвижения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид движения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ПоступлениеНаРасчетныйСчет.Дата КАК Дата,
+	ПоступлениеНаРасчетныйСчет.Контрагент КАК Контрагент,
+	ПоступлениеНаРасчетныйСчет.Ссылка КАК ДокументОплаты,
+	ВЫБОР
+		КОГДА ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.СчетНаОплату.Проведен
+			ТОГДА ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.СчетНаОплату
+		ИНАЧЕ ЗНАЧЕНИЕ(Документ.СчетНаОплатуПокупателю.ПустаяСсылка)
+	КОНЕЦ КАК СчетНаОплату,
+	ВЫБОР
+		КОГДА НЕ ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.СчетНаОплату.Сделка.ПометкаУдаления
+			ТОГДА ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.СчетНаОплату.Сделка
+		ИНАЧЕ ЗНАЧЕНИЕ(Документ.Сделка.ПустаяСсылка)
+	КОНЕЦ КАК Сделка,
+	ЕСТЬNULL(ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.СуммаПлатежа, ПоступлениеНаРасчетныйСчет.СуммаДокумента) КАК СуммаВзаиморасчетов,
+	"Поступление" КАК ВидДвижения,
+	ЕСТЬNULL(ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.СтатьяДвиженияДенежныхСредств, ПоступлениеНаРасчетныйСчет.СтатьяДвиженияДенежныхСредств) КАК СтатьяДвиженияДенежныхСредств
+ПОМЕСТИТЬ ПоступленияСделки
+ИЗ
+	Документ.ПоступлениеНаРасчетныйСчет.РасшифровкаПлатежа КАК ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ПоступлениеНаРасчетныйСчет КАК ПоступлениеНаРасчетныйСчет
+		ПО ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.Ссылка = ПоступлениеНаРасчетныйСчет.Ссылка
+ГДЕ
+	ПоступлениеНаРасчетныйСчет.Проведен
+	И ПоступлениеНаРасчетныйСчет.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.Ссылка.Проведен
+	И ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.Ссылка.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И НЕ ПоступлениеНаРасчетныйСчет.ВидОперации В (&amp;ВидОперации)
+	И НЕ ПоступлениеНаРасчетныйСчетРасшифровкаПлатежа.Ссылка.ВидОперации В (&amp;ВидОперации)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СписаниеСРасчетногоСчета.Дата КАК Дата,
+	СписаниеСРасчетногоСчета.Контрагент КАК Контрагент,
+	СписаниеСРасчетногоСчета.Ссылка КАК ДокументОплаты,
+	СписаниеСРасчетногоСчетаРасшифровкаПлатежа.СчетНаОплату КАК СчетНаОплату,
+	ЕСТЬNULL(СписаниеСРасчетногоСчетаРасшифровкаПлатежа.СуммаПлатежа, СписаниеСРасчетногоСчета.СуммаДокумента) КАК СуммаВзаиморасчетов,
+	"Списание" КАК ВидДвижения,
+	ЕСТЬNULL(СписаниеСРасчетногоСчетаРасшифровкаПлатежа.СтатьяДвиженияДенежныхСредств, СписаниеСРасчетногоСчета.СтатьяДвиженияДенежныхСредств) КАК СтатьяДвиженияДенежныхСредств
+ПОМЕСТИТЬ Списания
+ИЗ
+	Документ.СписаниеСРасчетногоСчета КАК СписаниеСРасчетногоСчета
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.СписаниеСРасчетногоСчета.РасшифровкаПлатежа КАК СписаниеСРасчетногоСчетаРасшифровкаПлатежа
+		ПО СписаниеСРасчетногоСчета.Ссылка = СписаниеСРасчетногоСчетаРасшифровкаПлатежа.Ссылка
+ГДЕ
+	СписаниеСРасчетногоСчета.Проведен
+	И СписаниеСРасчетногоСчета.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И СписаниеСРасчетногоСчетаРасшифровкаПлатежа.Ссылка.Проведен
+	И СписаниеСРасчетногоСчетаРасшифровкаПлатежа.Ссылка.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Списания.ДокументОплаты КАК ДокументОплаты,
+	Списания.Дата КАК Дата,
+	Списания.Контрагент КАК Контрагент,
+	Списания.СчетНаОплату КАК СчетНаОплату,
+	ВЫБОР
+		КОГДА СчетНаОплатуПоставщикаРаспределениеСуммПоСделкамТовары.Сделка.Проведен
+			ТОГДА СчетНаОплатуПоставщикаРаспределениеСуммПоСделкамТовары.Сделка
+		ИНАЧЕ ЗНАЧЕНИЕ(Документ.Сделка.ПустаяСсылка)
+	КОНЕЦ КАК Сделка,
+	ВЫБОР
+		КОГДА Списания.СчетНаОплату.СуммаДокумента = 0
+			ТОГДА 0
+		ИНАЧЕ ЕСТЬNULL(Списания.СуммаВзаиморасчетов / Списания.СчетНаОплату.СуммаДокумента * СчетНаОплатуПоставщикаРаспределениеСуммПоСделкамТовары.СуммаРаспределения, Списания.СуммаВзаиморасчетов)
+	КОНЕЦ КАК СуммаРаспределения,
+	"Списание" КАК ВидДвижения,
+	Списания.СтатьяДвиженияДенежныхСредств КАК СтатьяДвиженияДенежныхСредств
+ПОМЕСТИТЬ СписанияСделки
+ИЗ
+	Списания КАК Списания
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.СчетНаОплатуПоставщика.РаспределениеСуммПоСделкамТовары КАК СчетНаОплатуПоставщикаРаспределениеСуммПоСделкамТовары
+		ПО Списания.СчетНаОплату = СчетНаОплатуПоставщикаРаспределениеСуммПоСделкамТовары.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПоступленияСделки.Дата КАК Дата,
+	ПоступленияСделки.ДокументОплаты КАК ДокументОплаты,
+	ПоступленияСделки.СчетНаОплату КАК СчетНаОплату,
+	ПоступленияСделки.Сделка КАК Сделка,
+	ПоступленияСделки.СуммаВзаиморасчетов КАК СуммаВзаиморасчетов,
+	ПоступленияСделки.ВидДвижения КАК ВидДвижения,
+	ПоступленияСделки.Контрагент КАК ПолучательПлательщик,
+	ПоступленияСделки.СтатьяДвиженияДенежныхСредств КАК СтатьяДвиженияДенежныхСредств
+ИЗ
+	ПоступленияСделки КАК ПоступленияСделки
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СписанияСделки.Дата,
+	СписанияСделки.ДокументОплаты,
+	СписанияСделки.СчетНаОплату,
+	СписанияСделки.Сделка,
+	СписанияСделки.СуммаРаспределения,
+	СписанияСделки.ВидДвижения,
+	СписанияСделки.Контрагент,
+	СписанияСделки.СтатьяДвиженияДенежныхСредств
+ИЗ
+	СписанияСделки КАК СписанияСделки</query>
+	</dataSet>
+	<totalField>
+		<dataPath>СуммаВзаиморасчетов</dataPath>
+		<expression>Сумма(СуммаВзаиморасчетов)</expression>
+	</totalField>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ВидОперации</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид операции</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ВидыОперацийПоступлениеДенежныхСредств</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыОперацийПоступлениеДенежныхСредств.Депозит</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыОперацийПоступлениеДенежныхСредств.ПереводСДругогоСчета</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыОперацийПоступлениеДенежныхСредств.Инкассация</value>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>АнализДвиженийДенежныхСредствПоСделкам</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Анализ движений денежных средств по сделкам</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДокументОплаты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВзаиморасчетов</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сделка.Менеджер</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>fdea5d22-dba4-4fed-8cc9-b622562094f4</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сделка.МенеджерПоРаботеСКлиентами</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>8c88adc0-4f40-4dee-b733-61a3ee1c6a8b</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сделка.МенеджерПоТаможне</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>33749401-5197-416e-810f-a81769f6b56c</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>35994062-d152-4c94-b3a2-033027fdbfac</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВидОперации</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДокументОплаты</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Дата</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидДвижения</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>СтатьяДвиженияДенежныхСредств</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ПолучательПлательщик</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

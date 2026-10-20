@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="03b49c25-6ba7-413c-9a0f-4417c36cff12">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыВыставленияДокументов" category="Ref">
+				<xr:TypeId>bd72d052-5916-4fda-9a09-d66b5285c5a9</xr:TypeId>
+				<xr:ValueId>8a4ce84a-53e4-4de3-b46f-c552a3e88b0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыВыставленияДокументов" category="Manager">
+				<xr:TypeId>83681c4e-001a-4662-ba6a-6e53494966d4</xr:TypeId>
+				<xr:ValueId>089575d3-90ca-41f2-ad2a-cb8ed5c33289</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыВыставленияДокументов" category="List">
+				<xr:TypeId>fed0cc59-02f7-44ee-9aa8-0da1bae2cb4c</xr:TypeId>
+				<xr:ValueId>9c4f6123-91be-439d-90f2-4f064bc252c8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыВыставленияДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a64fee41-9064-4798-b6dd-069afa72599c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="cf8ada88-31cb-4fb4-9fef-27928c4e86a7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УниверсальныйДокумент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c7bf55b1-d4a1-460d-9f36-567fca2d0794</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="835fdcaa-c560-40fc-959f-dd890391ca46">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Автоматически</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7605395f-aa91-4d62-b51c-0e9004e06e13</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="85fa691a-b14e-4ac2-9cfd-552247a94b86">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПередаточныйДокументИСчетФактура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>19fb70d9-608d-4b2f-9ef1-1f81feba8016</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

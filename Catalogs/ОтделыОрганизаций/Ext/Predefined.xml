@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="d1260515-bae2-4c06-8711-e59460a9ac03">
+		<Name>ОтделДекларирования</Name>
+		<Code>000000002</Code>
+		<Description>Отдел декларирования</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ed4975e8-be0f-4441-a995-413a95643272">
+		<Name>ОтделПоРаботеСКлиентами</Name>
+		<Code>000000003</Code>
+		<Description>Отдел по работе с клиентами</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="25924cfc-efbd-4642-a8cf-2bddb83648c4">
+		<Name>ОтделПродаж</Name>
+		<Code>000000004</Code>
+		<Description>Отдел продаж</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bde81f7b-b639-44d3-bc52-254eb1dee081">
+		<Name>ОтделЭкспедирования</Name>
+		<Code>000000001</Code>
+		<Description>Отдел экспедирования</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="2a4746e0-57e1-4ff2-ac97-b2f595c036b3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусОплатыСчета" category="Ref">
+				<xr:TypeId>aaa7bac9-4205-4224-8cfd-bd948d871823</xr:TypeId>
+				<xr:ValueId>54d2cd98-2563-4721-b6f8-6fc6b4d66fd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусОплатыСчета" category="Manager">
+				<xr:TypeId>ef2d062a-17e1-450c-aab4-4a83a856f637</xr:TypeId>
+				<xr:ValueId>6eb833ee-cdbb-4260-970b-5f734375bb42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусОплатыСчета" category="List">
+				<xr:TypeId>366b8161-bad2-4659-a617-6a89e562e00d</xr:TypeId>
+				<xr:ValueId>4fc6e377-ca7c-403b-a66e-2d6a38789730</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусОплатыСчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1499f9b0-b1d7-4e3c-8d33-9137004542d8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="adf09a78-c0a0-42c1-9aa3-a7242fed3507">
+				<Properties>
+					<Name>СогласованДляОплаты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Согласован для оплаты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="02ba6245-8022-4b1a-aeca-94c9d777375a">
+				<Properties>
+					<Name>ДобавленВПлатежныйКалендарь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавлен в платежный календарь</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

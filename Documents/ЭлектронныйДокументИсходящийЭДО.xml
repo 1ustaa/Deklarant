@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e11440c3-d89b-48d7-a243-ca35479e8fd5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЭлектронныйДокументИсходящийЭДО" category="Object">
+				<xr:TypeId>a3223d23-df0b-4070-8d11-9f57b2126cae</xr:TypeId>
+				<xr:ValueId>4a227059-0edf-472f-8364-99b845329942</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЭлектронныйДокументИсходящийЭДО" category="Ref">
+				<xr:TypeId>1e407099-3ce8-435f-affd-2588fee52704</xr:TypeId>
+				<xr:ValueId>4dea0238-152a-4927-9bfc-c29bdd7a216a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЭлектронныйДокументИсходящийЭДО" category="Selection">
+				<xr:TypeId>d52309c4-0690-46a3-a2f0-28434feb49a8</xr:TypeId>
+				<xr:ValueId>7e9c6a57-4931-4507-a96c-a65fd8e639f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЭлектронныйДокументИсходящийЭДО" category="List">
+				<xr:TypeId>abc8a818-f90a-4a2c-86b2-2d04a17a3132</xr:TypeId>
+				<xr:ValueId>d9d395e6-c177-4431-b548-21fb94eae1a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЭлектронныйДокументИсходящийЭДО" category="Manager">
+				<xr:TypeId>45a82bfc-6706-4e87-8ae9-927823fca9c9</xr:TypeId>
+				<xr:ValueId>cfbe59aa-40cb-4d70-9657-1b496bdf4e53</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭлектронныйДокументИсходящийЭДО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>631c41d6-46ef-4103-944e-157cb3a69161</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаПросмотра</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3bb7d70e-1690-4558-9cea-05a35be2163a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОплатаПлатежнойКартой" category="Object">
+				<xr:TypeId>342ae009-fab7-4804-93ad-848fa8d741d4</xr:TypeId>
+				<xr:ValueId>1ab8dab7-5592-449e-b68a-39cacbb4dc6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОплатаПлатежнойКартой" category="Ref">
+				<xr:TypeId>3c8979aa-dc3b-405c-9d96-15a1f27a539b</xr:TypeId>
+				<xr:ValueId>d729e0fe-0469-4aed-a533-4d2466842c64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОплатаПлатежнойКартой" category="Selection">
+				<xr:TypeId>6d0b1626-f53d-4798-b801-55695b7f0f8e</xr:TypeId>
+				<xr:ValueId>0ed27eea-5ae0-46c8-9434-cf3a31bcec4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОплатаПлатежнойКартой" category="List">
+				<xr:TypeId>8885d127-bcad-43c8-bc7f-f6245dead1b6</xr:TypeId>
+				<xr:ValueId>8e873564-0182-47e1-907c-445d0398fdee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОплатаПлатежнойКартой" category="Manager">
+				<xr:TypeId>efa71fd3-7193-4463-973c-4befccc11f11</xr:TypeId>
+				<xr:ValueId>05fb6916-9626-42bf-808f-a276ec32e329</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОплатаПлатежнойКартой</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1352de94-dc0a-4c63-96a3-dd70738f850e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="77abfbe2-1dab-4ecf-a947-1144ce95cd93">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>61f7bd41-00e9-482f-8549-5c139045df19</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="a38ff979-0f47-4289-b6e5-f395e6c181ed">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОплатаПлатежнойКартой.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>647e96b6-f50b-4e11-ba30-f9b50596817f</xr:TypeId>
+						<xr:ValueId>e8152719-b2d1-4503-822d-a03e0e456750</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОплатаПлатежнойКартой.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>d792ce1d-2b0c-4c5a-b2f2-adf24f789f0b</xr:TypeId>
+						<xr:ValueId>04775cad-2124-42cb-8690-7b03b54d64a3</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7ee7c823-fd15-4add-832f-743f076fdbe0</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4c1b452a-4a93-4cca-b838-f5376800ac71">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорКонтрагента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>da242d51-6417-447c-9693-2a4d5370561c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

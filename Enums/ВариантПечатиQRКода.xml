@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f7331d76-9eed-4adc-9f42-8254f8592069">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантПечатиQRКода" category="Ref">
+				<xr:TypeId>105afc57-fbfa-4e2d-a675-aa1fc43a016f</xr:TypeId>
+				<xr:ValueId>eebaf732-c5bd-469c-8e81-df91193e8665</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантПечатиQRКода" category="Manager">
+				<xr:TypeId>c818bfbe-d690-40c5-b11b-fda6148d706f</xr:TypeId>
+				<xr:ValueId>6dc59e43-e795-4cea-9004-2dd4d974f76d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантПечатиQRКода" category="List">
+				<xr:TypeId>42bdb266-e4d0-4939-b546-219598eb1457</xr:TypeId>
+				<xr:ValueId>ddf1b106-464d-48d8-a82e-817cdbdc6c95</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантПечатиQRКода</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1d229163-7d2b-4632-a9ff-6ff78a82a024</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bfd82d9b-9020-43ed-b316-c8e1d3a8d387">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПлатежныеРеквизиты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3583fa72-85ec-48ce-b7bf-59f2f629cd13</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

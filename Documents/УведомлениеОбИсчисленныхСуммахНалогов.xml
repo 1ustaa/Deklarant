@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b61abeec-0cf7-4c7c-9fca-b01048a1c8c1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УведомлениеОбИсчисленныхСуммахНалогов" category="Object">
+				<xr:TypeId>ea67c8b5-8cf8-4709-9216-fbcf68dc6cc6</xr:TypeId>
+				<xr:ValueId>b49602f5-cf42-426d-8aaf-4bf05e09edba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УведомлениеОбИсчисленныхСуммахНалогов" category="Ref">
+				<xr:TypeId>e69286c3-6b8d-4403-9747-1854b983860a</xr:TypeId>
+				<xr:ValueId>2edc9c5e-f5f6-4d80-9250-bf3fca3f92e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УведомлениеОбИсчисленныхСуммахНалогов" category="Selection">
+				<xr:TypeId>5b9ee5f1-3e31-49c7-a9b0-127edd120650</xr:TypeId>
+				<xr:ValueId>4b0d5f6c-44a4-45ac-91b2-7d04c53f1f37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УведомлениеОбИсчисленныхСуммахНалогов" category="List">
+				<xr:TypeId>31044385-8ed5-4e1f-92f5-d12c9cdb7d06</xr:TypeId>
+				<xr:ValueId>6af307ba-cd38-4066-83ea-eb63bdfd577f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УведомлениеОбИсчисленныхСуммахНалогов" category="Manager">
+				<xr:TypeId>7ab26d36-2bfd-493e-be50-35f939870998</xr:TypeId>
+				<xr:ValueId>80ba4edd-c84a-439a-9de7-4efb5890f6fe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УведомлениеОбИсчисленныхСуммахНалогов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a9d12c7c-09c9-4bd7-806b-c3ebab5ea189</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

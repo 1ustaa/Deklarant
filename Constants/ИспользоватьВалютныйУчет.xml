@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="c30cf6d2-888e-49ab-847d-31b841c3bc8c">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьВалютныйУчет" category="Manager">
+				<xr:TypeId>79b49977-cf16-484f-8df0-7917985d73c6</xr:TypeId>
+				<xr:ValueId>58b7e170-c4e4-4ece-8f57-a86886e4c442</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьВалютныйУчет" category="ValueManager">
+				<xr:TypeId>6e738bb0-1c6e-46bc-a7ed-ac1061c90c71</xr:TypeId>
+				<xr:ValueId>799d6045-4108-4ac5-ac59-eb34b120d7e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьВалютныйУчет" category="ValueKey">
+				<xr:TypeId>5566ac41-205d-4d3f-8db1-91d0d7cd1f61</xr:TypeId>
+				<xr:ValueId>a7e367dd-41e5-44b3-acb7-07c54c8cc228</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИспользоватьВалютныйУчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>03b3b175-0e04-4855-a4f2-fffffce74a65</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

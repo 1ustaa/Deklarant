@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.20">
+	<Item id="34e512cf-8458-4f8a-a882-54da5019248f">
+		<Name>СтавкиНДС</Name>
+		<Code>00026</Code>
+		<Description>Ставки НДС</Description>
+		<Type/>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="e38840f9-35a2-4fa7-833d-5bb7912d9f6e">
+		<Name>Договоры</Name>
+		<Code>00016</Code>
+		<Description>Договоры</Description>
+		<Type/>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="96cd55f4-bfd7-4221-a333-63c6662a4ed2">
+		<Name>НоменклатурныеГруппы</Name>
+		<Code>00012</Code>
+		<Description>Номенклатурные группы</Description>
+		<Type/>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="3e2e83d6-5432-42cf-8fab-6301e63d206c">
+		<Name>Номенклатура</Name>
+		<Code>00001</Code>
+		<Description>Номенклатура</Description>
+		<Type/>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+	<Item id="53fca100-4574-441c-a553-b7af921adc68">
+		<Name>СтатьиЗатрат</Name>
+		<Code>00007</Code>
+		<Description>Статьи затрат</Description>
+		<Type/>
+		<IsFolder>false</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+	</Item>
+</PredefinedData>

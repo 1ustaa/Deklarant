@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3a1a0abe-d890-4072-843a-a87dff73ac7d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетМаркетплейса" category="Object">
+				<xr:TypeId>ee70dee7-6730-4a5c-bdb5-34a95ccc1b49</xr:TypeId>
+				<xr:ValueId>3f436b1d-adab-4024-a3bb-5d3e8ae7943b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетМаркетплейса" category="Ref">
+				<xr:TypeId>bd3334b5-2095-4377-8b45-b8b33791fef6</xr:TypeId>
+				<xr:ValueId>da29e699-ff9d-4a2f-bd80-df63410a564e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетМаркетплейса" category="Selection">
+				<xr:TypeId>9254013a-4aa2-4828-86d1-dbc006c0cb22</xr:TypeId>
+				<xr:ValueId>e8344534-738e-4cf7-be30-b4eb1cb24dc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетМаркетплейса" category="List">
+				<xr:TypeId>2fe32366-3806-4273-9af7-ae5e35e95a91</xr:TypeId>
+				<xr:ValueId>bdde9da5-4ab6-40f3-9daa-d0841f4b045d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетМаркетплейса" category="Manager">
+				<xr:TypeId>bdfb3215-aefe-4928-b37e-b60fc287e48e</xr:TypeId>
+				<xr:ValueId>a181551a-2bd1-44dc-9233-a0da61f438e4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетМаркетплейса</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7bbbf241-ca94-485b-89f8-b53273f10093</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

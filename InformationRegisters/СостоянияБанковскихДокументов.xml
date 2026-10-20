@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="87e58c81-316f-427f-b234-9d56c6097e6a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияБанковскихДокументов" category="Record">
+				<xr:TypeId>345ed03f-2cfb-4940-a1ce-0eff4d4a2b58</xr:TypeId>
+				<xr:ValueId>dd6989a1-794d-435f-b605-f0640c2203fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияБанковскихДокументов" category="Manager">
+				<xr:TypeId>aee1bdf5-499e-445d-ab97-fdbff2102b6e</xr:TypeId>
+				<xr:ValueId>07c9bb57-127e-439b-b31c-a931a0117793</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияБанковскихДокументов" category="Selection">
+				<xr:TypeId>09056fbb-6b0c-431f-a93c-441464b50c16</xr:TypeId>
+				<xr:ValueId>dab7d5ec-0139-4d94-9736-9c8887086609</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияБанковскихДокументов" category="List">
+				<xr:TypeId>c5cb0bf0-c711-40ba-a7ab-6df2e6153c6c</xr:TypeId>
+				<xr:ValueId>653fd21f-7c38-4269-b6a6-082094485ca8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияБанковскихДокументов" category="RecordSet">
+				<xr:TypeId>ab56fbcd-830e-403c-975b-9c0dbb2d00af</xr:TypeId>
+				<xr:ValueId>e861346d-a169-454e-be6d-38d190cbb3cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияБанковскихДокументов" category="RecordKey">
+				<xr:TypeId>44041a24-97e1-41b5-b9b3-d4a5410c732f</xr:TypeId>
+				<xr:ValueId>76a13a09-0e65-44fd-a59d-839cecd86236</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияБанковскихДокументов" category="RecordManager">
+				<xr:TypeId>5d61add3-85f1-4d9c-b334-7c389fe8ec32</xr:TypeId>
+				<xr:ValueId>169a1a40-919f-46d4-8840-8c47f155d331</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияБанковскихДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a54b0b7a-f743-4ad0-824a-07d250a9e63d</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="676f5b97-f6ef-452d-b9d6-1e74ae6b5065">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>84bcfb01-bbe2-4e8a-9979-e91b39c8b187</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияБанковскихДокументов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9b5bd984-9a7c-4107-a0ed-bd1460b1c9cc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a5ab0763-69ed-49e3-bd2f-81e1287eefc7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b30b4e24-511e-456e-a502-5dd39484e3a6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Согласовано</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f6249c95-50ce-47fa-852e-c70007e657be</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2de46078-2131-4c3d-bfb1-a891ba16be16">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d9af000a-f19d-4c02-9e1c-8bfbe818b409</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e116ebf0-0dd4-407b-a4d2-80e1e81fed89">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СсылкаНаОбъект</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>de99f1f5-5a31-4cc1-b769-c783b1410146</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

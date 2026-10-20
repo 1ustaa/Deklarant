@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="317e90d0-270e-4d63-a3d9-d31d0a7e3359">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаДолга" category="Object">
+				<xr:TypeId>6a56d71d-1253-430e-a120-85dc6cb39654</xr:TypeId>
+				<xr:ValueId>2fcb7590-b299-43d5-b3e0-dff0a075b020</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаДолга" category="Ref">
+				<xr:TypeId>29432b2c-f51c-4027-b2a4-d389e6dc527c</xr:TypeId>
+				<xr:ValueId>90cf0281-861c-4541-8c92-f69f07a992b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаДолга" category="Selection">
+				<xr:TypeId>ac8dac80-513b-4a94-9812-3a7e3ab0c84e</xr:TypeId>
+				<xr:ValueId>806bdd14-6ba0-4556-96fc-aa2b48e1c4d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаДолга" category="List">
+				<xr:TypeId>49349906-3736-46e5-ac68-bd3b07408580</xr:TypeId>
+				<xr:ValueId>e4a872c7-f4c2-4d65-9447-6b571a05c3db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаДолга" category="Manager">
+				<xr:TypeId>f3eaff0f-c627-46c9-a693-6f3e491d4d19</xr:TypeId>
+				<xr:ValueId>a360f4af-f04e-4fbb-aa82-8efe84d9c408</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаДолга</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>64dfc119-cedf-4455-9db1-476b51699985</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="53c254aa-23d9-4594-bfe2-5934df1612ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтрагентКредитор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1386d766-4c26-4b34-ba69-46838beedfe0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cbcb2688-4ccb-4910-ac81-1ac680108395">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтрагентДебитор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3e306b22-ab56-4490-8754-3c7a15ae4fdc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="c58d9343-07f7-4c74-9784-4882eb1d7f35">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.КорректировкаДолга.ДебиторскаяЗадолженность" category="TabularSection">
+						<xr:TypeId>e7c6f664-dd1c-4f5c-a6de-1373080702ce</xr:TypeId>
+						<xr:ValueId>2efd113b-0733-4001-9862-97db0a8a30ca</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.КорректировкаДолга.ДебиторскаяЗадолженность" category="TabularSectionRow">
+						<xr:TypeId>a81e4c53-3170-46c4-8114-3fd7dc7cdd19</xr:TypeId>
+						<xr:ValueId>17ad0c09-aefa-498a-9b40-72d74da76e3e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДебиторскаяЗадолженность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2eea0d20-a070-4ae5-867d-4606205469ed</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c9b6cdeb-644a-4094-9254-4583c1e68e76">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорКонтрагента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>2f765167-5b30-48a7-aada-d633e079e799</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="1de758c1-7e6e-4048-a473-cf15abafe5a1">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.КорректировкаДолга.КредиторскаяЗадолженность" category="TabularSection">
+						<xr:TypeId>978f9dcd-b479-4012-8775-e7162f184c53</xr:TypeId>
+						<xr:ValueId>14c455dc-7704-46b0-aa9e-a7f28162b1a4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.КорректировкаДолга.КредиторскаяЗадолженность" category="TabularSectionRow">
+						<xr:TypeId>b12f9cf4-02d3-49dd-81ef-73d196b36954</xr:TypeId>
+						<xr:ValueId>d1f541c0-9c83-413c-8904-af13fc1a0473</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КредиторскаяЗадолженность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6c53eceb-3ab0-44b4-90e7-3abc2d859406</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="13c23ebf-3688-4379-874e-39a8dd896e06">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорКонтрагента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>809685ba-a1b8-444c-a8a4-aec1fb209c83</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

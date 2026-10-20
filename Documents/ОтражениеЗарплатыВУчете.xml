@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b62406ef-dbb8-47be-b268-7c05f7c02e6e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтражениеЗарплатыВУчете" category="Object">
+				<xr:TypeId>852a00dc-a0a8-4028-8609-2b29cb9a17e0</xr:TypeId>
+				<xr:ValueId>027c7e49-5d03-4f03-addc-7093fa824dbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтражениеЗарплатыВУчете" category="Ref">
+				<xr:TypeId>3760da3b-92df-4b69-bad1-84241d4b782f</xr:TypeId>
+				<xr:ValueId>0ef610f1-ce41-4d9d-93a6-b91572d565a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтражениеЗарплатыВУчете" category="Selection">
+				<xr:TypeId>ac355a61-d958-4462-a7dd-7a2ac3348ca0</xr:TypeId>
+				<xr:ValueId>7e86cc9d-29c9-4471-b6c2-a2778d2175d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтражениеЗарплатыВУчете" category="List">
+				<xr:TypeId>e85eed38-e53e-4365-b3a4-0cfb9c3bea86</xr:TypeId>
+				<xr:ValueId>960d7a80-4008-4d32-8365-477ec91e0b91</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтражениеЗарплатыВУчете" category="Manager">
+				<xr:TypeId>0f0f696c-e791-47cd-aa0c-e1a7aea7a2e8</xr:TypeId>
+				<xr:ValueId>cdc1e345-5972-482a-87de-4af61c41d75b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтражениеЗарплатыВУчете</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>471df72a-b312-43c4-851e-9373e4635418</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

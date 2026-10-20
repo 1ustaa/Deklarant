@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccountingRegister uuid="cb096f99-0fd1-42c6-8d71-ef318467b0db">
+		<InternalInfo>
+			<xr:GeneratedType name="AccountingRegisterRecord.Хозрасчетный" category="Record">
+				<xr:TypeId>91dfb18f-aded-4887-b890-f7ae5c821054</xr:TypeId>
+				<xr:ValueId>52e213eb-20d6-492d-860c-cb1cc2085f71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterExtDimensions.Хозрасчетный" category="ExtDimensions">
+				<xr:TypeId>905d8d82-b56a-494f-8c97-885b9f3bb05e</xr:TypeId>
+				<xr:ValueId>a27c8b7e-b460-43dd-9ed6-8e04f9898e46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordSet.Хозрасчетный" category="RecordSet">
+				<xr:TypeId>e499e3f4-8680-406a-96ae-581826f15f04</xr:TypeId>
+				<xr:ValueId>964489a3-76ce-4e0d-9e1b-2f73985bf366</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordKey.Хозрасчетный" category="RecordKey">
+				<xr:TypeId>d4fc0868-f973-4923-a839-8f8b9f6cbc11</xr:TypeId>
+				<xr:ValueId>0f8f1527-f37a-4d2d-bfc9-2d1232d22137</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterSelection.Хозрасчетный" category="Selection">
+				<xr:TypeId>a0e81170-26e8-4ea8-b80f-7feef4798fc8</xr:TypeId>
+				<xr:ValueId>defd05b9-a487-498c-8d82-5d1fe47373e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterList.Хозрасчетный" category="List">
+				<xr:TypeId>d909a59e-93b5-46a8-bb4a-45ebc5275541</xr:TypeId>
+				<xr:ValueId>c0d77687-b4a5-4346-a090-18106eb4e4b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterManager.Хозрасчетный" category="Manager">
+				<xr:TypeId>53c42cf6-f7c5-44a3-be1a-fddf36077554</xr:TypeId>
+				<xr:ValueId>e1a1f0d3-fc0a-4a29-af1d-3a35037b7236</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Хозрасчетный</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7b248429-2107-4371-b371-a099028cd179</ExtendedConfigurationObject>
+			<ChartOfAccounts>ChartOfAccounts.Хозрасчетный</ChartOfAccounts>
+			<Correspondence>true</Correspondence>
+			<PeriodAdjustmentLength>1</PeriodAdjustmentLength>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="820bcc35-3b61-4084-8630-eaae42c53111">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ca26a990-8c83-42b1-b897-ac03915490ea</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ec80b465-0acc-45d9-89b9-95e7064141c7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4d42e16e-f450-41a3-a9c4-4f0d0844392a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+					<Balance>true</Balance>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="c29693e5-61bc-4b14-be3f-9f65c66374a2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Валюта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f59ef197-f777-4fe8-9578-0d257ec6a70c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Dimension>
+			<Resource uuid="3ef9269a-4d14-4639-8362-8abefe35d98c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаНУ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>641f0869-7333-4725-ae8c-bd4097ef11a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Resource>
+			<Resource uuid="ed5f6124-de59-4006-a0e0-d7a4ed769ade">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютнаяСумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2364dd92-2120-41b6-a6f7-008c333d706b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Resource>
+			<Resource uuid="204d861a-6ad7-4691-8e98-45fa67241acf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3656a8da-a29d-4315-b78f-48d379d4b712</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<Balance>true</Balance>
+				</Properties>
+			</Resource>
+			<Resource uuid="f8ed45fa-4975-42b6-90b5-98ec83182ecb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4b967ef5-26ee-4c92-92c6-7f93336687fd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Resource>
+			<Resource uuid="6ff8a791-4298-4801-b91c-8afa9e9e908c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаПР</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>de888dc4-f514-478b-a7c1-5118fba98e8c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Resource>
+			<Resource uuid="248c2bbf-d212-4f35-9e6e-aeb215ff8264">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаВР</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8a21806d-dfd6-47b7-aa52-b94381ed7341</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<Balance>false</Balance>
+				</Properties>
+			</Resource>
+			<Attribute uuid="4be4bd2b-07af-4858-a63d-b6a005739c95">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Содержание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>17c87c43-ee62-4b46-a19c-f2b35f24719e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="36a8dece-3d04-44a3-9d5b-7a3170eda2af">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеКорректироватьСтоимостьАвтоматически</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c7195cdc-df0b-4293-95e3-633c96899572</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</AccountingRegister>
+</MetaDataObject>

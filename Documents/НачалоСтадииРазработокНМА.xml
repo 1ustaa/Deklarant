@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="16c4fdf3-0dfd-4f2a-b150-75ddee252a3e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачалоСтадииРазработокНМА" category="Object">
+				<xr:TypeId>e515f4b4-2953-420a-b737-f076eb5f818a</xr:TypeId>
+				<xr:ValueId>74bf8759-2093-41f8-b97e-6dbb20ef3be2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачалоСтадииРазработокНМА" category="Ref">
+				<xr:TypeId>d3180e39-728e-460b-88d8-70be984db7b1</xr:TypeId>
+				<xr:ValueId>76e1ad95-6917-43eb-8b60-64f6daeb5acf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачалоСтадииРазработокНМА" category="Selection">
+				<xr:TypeId>592d12e8-a46d-46cb-a9e1-99b399951806</xr:TypeId>
+				<xr:ValueId>2870d327-7058-4851-9444-e2a7dd962e2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачалоСтадииРазработокНМА" category="List">
+				<xr:TypeId>8d5ec4f4-9053-48a9-ab8a-08104e758005</xr:TypeId>
+				<xr:ValueId>1a2c8891-f42b-45ce-af87-9aa59bafe755</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачалоСтадииРазработокНМА" category="Manager">
+				<xr:TypeId>d7008214-f0b9-4311-a1ed-c99996268759</xr:TypeId>
+				<xr:ValueId>769de89c-8b7d-4ee1-8a67-03d01f3bb471</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НачалоСтадииРазработокНМА</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>832ccbc8-015c-495f-b171-3bad8fdb8e41</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

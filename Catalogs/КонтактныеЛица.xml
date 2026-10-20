@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="36b0b0e6-255c-4c32-84ef-6849628bc3cc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КонтактныеЛица" category="Object">
+				<xr:TypeId>f28cb017-b445-4529-b528-980451018746</xr:TypeId>
+				<xr:ValueId>2dabfbd6-07ba-44e9-93b6-79a6cf559bee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КонтактныеЛица" category="Ref">
+				<xr:TypeId>e1d2effe-ad28-4349-812b-c3b8207e9fc3</xr:TypeId>
+				<xr:ValueId>4f63507f-0084-4711-af0b-52376a580aca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КонтактныеЛица" category="Selection">
+				<xr:TypeId>980f75a0-e654-47e1-b5be-314462c5004b</xr:TypeId>
+				<xr:ValueId>52421925-7f57-4d04-9e7a-c7a5f8d38bb3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КонтактныеЛица" category="List">
+				<xr:TypeId>89bbcb92-cc76-4b79-ad82-7804664729c7</xr:TypeId>
+				<xr:ValueId>e2024bc4-6558-47f7-9128-26c4d0fd0f19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КонтактныеЛица" category="Manager">
+				<xr:TypeId>9dd3251d-0c41-4606-bc65-01af997f2ac9</xr:TypeId>
+				<xr:ValueId>9b68b17c-d4f3-4599-a41b-35f633db869f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КонтактныеЛица</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e0e863f9-8c16-453e-b505-f9511b4e4e53</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3ffc602c-7a70-4446-b6f5-ada160a43bbb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектВладелец</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d61848aa-cb56-4f9b-9b97-afec2c1aef07</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7b9c43f2-f68b-4ab2-ae54-a4031da06270">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидКонтактногоЛица</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d5dabf57-a0a5-4ad1-b68b-906e16b313a6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыКонтактныхЛиц</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="768b0cdf-b64f-4a5e-8767-10a0d4b1971e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Фамилия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f464f834-fcd9-4aff-921c-7c6969448240</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a981327b-01a8-43c5-bb07-da8970a38acd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Имя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7911e8e6-9c64-46cd-9410-dd3eeeb8e875</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7ff3fc34-d88c-4715-83d7-fa806ef425e5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отчество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f9daa97-3859-401f-9e81-b0d030065cb8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

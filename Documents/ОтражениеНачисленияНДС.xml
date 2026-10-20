@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="143d814d-06f0-4788-baad-d4ab669897a9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтражениеНачисленияНДС" category="Object">
+				<xr:TypeId>2b083fc7-866d-443d-8d97-b92b76f05f0e</xr:TypeId>
+				<xr:ValueId>6f4a6d8f-0cfa-4603-9b3c-e01b710ce0b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтражениеНачисленияНДС" category="Ref">
+				<xr:TypeId>37f39bef-5b78-4c07-ad32-7ac7c89fe2f6</xr:TypeId>
+				<xr:ValueId>1dfcf64a-3e60-4e8f-a9e8-3d1498457933</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтражениеНачисленияНДС" category="Selection">
+				<xr:TypeId>8168a80c-932d-4cb1-b15b-6f54f332d5bb</xr:TypeId>
+				<xr:ValueId>ec510780-b852-4a08-b362-5b95e03f9fee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтражениеНачисленияНДС" category="List">
+				<xr:TypeId>01a4e48a-2c03-4865-88a2-3f4b607a06ac</xr:TypeId>
+				<xr:ValueId>c62c323a-58c7-4640-9f9a-a20ca8df2dac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтражениеНачисленияНДС" category="Manager">
+				<xr:TypeId>f81e81da-a532-403c-9a0a-dc0878f36b2a</xr:TypeId>
+				<xr:ValueId>3c3ae452-ad48-479a-aa7d-36effb310fb9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтражениеНачисленияНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3e5fb2c4-5583-41b5-890e-adb8dbb38225</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c6b92e2a-0dbd-4096-b71f-38a899a09513">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f3563d41-92aa-41c8-96cc-40d3ca7eb36a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a2066d7a-34ce-4845-9cd4-2a17cfc72663">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d8d49f7f-a1bf-4b4a-bcef-5e3ac78b862b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

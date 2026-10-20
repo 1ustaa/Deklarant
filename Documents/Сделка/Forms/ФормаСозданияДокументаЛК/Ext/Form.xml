@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Создание заявки на сделку</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>ChangeHistory</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>OpenFromMainServer</ExcludedCommand>
+		<ExcludedCommand>OpenFromStandaloneServer</ExcludedCommand>
+		<ExcludedCommand>Post</ExcludedCommand>
+		<ExcludedCommand>PostAndClose</ExcludedCommand>
+		<ExcludedCommand>Reread</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+		<ExcludedCommand>ShowInList</ExcludedCommand>
+		<ExcludedCommand>UndoPosting</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<UsualGroup name="ГруппаКнопок" id="167">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКнопокРасширеннаяПодсказка" id="168"/>
+			<ChildItems>
+				<Button name="Записать" id="163">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.StandardCommand.Write</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Принять</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="164"/>
+				</Button>
+				<Button name="Закрыть" id="169">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Закрыть</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отменить</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="170"/>
+				</Button>
+				<Button name="ОбщаяКомандаЛГС_ПрисоединенныеФайлыБП" id="165">
+					<Type>UsualButton</Type>
+					<Width>3</Width>
+					<CommandName>CommonCommand.ЛГС_ПрисоединенныеФайлыБП</CommandName>
+					<DataPath>Объект.Ref</DataPath>
+					<ExtendedTooltip name="ОбщаяКомандаЛГС_ПрисоединенныеФайлыБПРасширеннаяПодсказка" id="166"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Вид" id="55">
+			<DataPath>Объект.Вид</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид сделки</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="ВидРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<InputField name="ПортПрибытия" id="28">
+			<DataPath>Объект.ПортПрибытия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<OpenButton>false</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПортПрибытияКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ПортПрибытияРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ПортОтгрузки" id="31">
+			<DataPath>Объект.ПортОтгрузки</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<OpenButton>false</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПортОтгрузкиКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ПортОтгрузкиРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="Судно" id="34">
+			<DataPath>Объект.Судно</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<OpenButton>false</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СудноКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="СудноРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="Груз" id="37">
+			<DataPath>Объект.Груз</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ГрузКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ГрузРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="ПрипортовойТерминал" id="43">
+			<DataPath>Объект.ПрипортовойТерминал</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<OpenButton>false</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПрипортовойТерминалКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ПрипортовойТерминалРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<InputField name="Линия" id="61">
+			<DataPath>Объект.Линия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<OpenButton>false</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЛинияКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="ЛинияРасширеннаяПодсказка" id="63"/>
+		</InputField>
+		<InputField name="Грузополучатель" id="64">
+			<DataPath>Объект.Грузополучатель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<OpenButton>false</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ГрузополучательКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="ГрузополучательРасширеннаяПодсказка" id="66"/>
+		</InputField>
+		<InputField name="ДатаВыходаИзПортаОтгрузки" id="91">
+			<DataPath>Объект.ДатаВыходаИзПортаОтгрузки</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаВыходаИзПортаОтгрузкиКонтекстноеМеню" id="92"/>
+			<ExtendedTooltip name="ДатаВыходаИзПортаОтгрузкиРасширеннаяПодсказка" id="93"/>
+		</InputField>
+		<InputField name="ДатаПрибытия" id="94">
+			<DataPath>Объект.ДатаПрибытия</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата прибытия</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаПрибытияКонтекстноеМеню" id="95"/>
+			<ExtendedTooltip name="ДатаПрибытияРасширеннаяПодсказка" id="96"/>
+		</InputField>
+		<InputField name="ВесБрутто" id="160">
+			<DataPath>Объект.ВесБрутто</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВесБруттоКонтекстноеМеню" id="161"/>
+			<ExtendedTooltip name="ВесБруттоРасширеннаяПодсказка" id="162"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Сделка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Записать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Закрыть" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗакрытьФорму</Action>
+		</Command>
+	</Commands>
+</Form>

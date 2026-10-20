@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Report uuid="0a870061-c2e4-4794-8282-56a383e0478c">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.АнализЖурналаРегистрации" category="Object">
+				<xr:TypeId>9818599d-1e47-40c7-94c3-f4319527876e</xr:TypeId>
+				<xr:ValueId>4d79af1d-2bcc-4da0-96f5-97c6c7f1e7bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.АнализЖурналаРегистрации" category="Manager">
+				<xr:TypeId>060b100a-33a3-4633-9248-128d04ba9e9c</xr:TypeId>
+				<xr:ValueId>2be4de52-fa24-4ba1-818f-a1526cf47438</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АнализЖурналаРегистрации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bcd705ba-c9ac-4e73-94b1-7632c0f06c04</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Report>
+</MetaDataObject>

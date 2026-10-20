@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="ac8f80d6-b1c8-4a07-938a-8437233f0a98">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПечатьСчетаНаОплату" category="Object">
+				<xr:TypeId>4e4a8caf-ab73-44a9-afdd-cff3ed63addf</xr:TypeId>
+				<xr:ValueId>2f05fa86-a684-4ce7-923f-eb99cc416a5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПечатьСчетаНаОплату" category="Manager">
+				<xr:TypeId>b43ba521-f751-4c69-a9f0-2071b2f0d9b9</xr:TypeId>
+				<xr:ValueId>8f04e54d-4c4e-4769-aeae-6a51d011790f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПечатьСчетаНаОплату</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>74127d64-aebd-4227-bcab-8a45136a5036</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</DataProcessor>
+</MetaDataObject>

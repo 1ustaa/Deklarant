@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="14905a51-fae8-4d9e-8665-17ebae392c0f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийОтчетКомитентуОПродажах" category="Ref">
+				<xr:TypeId>d85555ad-3e28-4fd4-b00b-d4dca7b5d045</xr:TypeId>
+				<xr:ValueId>6b27b7f1-31ce-4407-8e23-2dd9c417ef00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийОтчетКомитентуОПродажах" category="Manager">
+				<xr:TypeId>a8a928ca-5ba5-41c3-a23d-386db653831e</xr:TypeId>
+				<xr:ValueId>72d92fdb-5594-4e42-aefb-fdf0a3dabf6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийОтчетКомитентуОПродажах" category="List">
+				<xr:TypeId>0542c989-5496-47f1-bf60-ccd973d10aa1</xr:TypeId>
+				<xr:ValueId>d4a85d79-604c-4ace-9f0f-dfafe0bcd6e4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийОтчетКомитентуОПродажах</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>75b1cd3f-46aa-469f-ba47-a62a90494e6e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bfd4c1c8-622a-4760-ab1c-80fbab6fc3f7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтчетОЗакупках</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a0d2483a-f7c0-461a-8d2a-f03fc5c76ef1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

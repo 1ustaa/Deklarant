@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="104a155f-157f-4ba3-b1e1-c4be23ba039c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыКонтактныхЛиц" category="Ref">
+				<xr:TypeId>3b791e60-6194-4eef-ab1d-2eb0e03ded2b</xr:TypeId>
+				<xr:ValueId>42450eb1-3252-440f-88e5-2b22f95f96da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыКонтактныхЛиц" category="Manager">
+				<xr:TypeId>f3c8447f-e093-475d-a5f4-de2b11b4954d</xr:TypeId>
+				<xr:ValueId>c4080283-9f87-422a-ae95-4c46c01aedd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыКонтактныхЛиц" category="List">
+				<xr:TypeId>de04d33a-0fea-4e67-9c45-46146ff8a28c</xr:TypeId>
+				<xr:ValueId>b997b8d2-9d8a-4f1b-9b2e-dd3dea1ad1c7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыКонтактныхЛиц</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fd04d51c-aea8-4418-8c9c-1b75626861b3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ff8770bf-498e-4d03-95e1-7358ddf05726">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтактноеЛицоКонтрагента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4aa0294a-8c4b-4ca6-887b-478a670896f2</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="df7fe149-d790-48a7-8bdb-5adea83bf450">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияДокументовЭДО" category="Ref">
+				<xr:TypeId>41dd196e-caf0-4991-bc3b-78fde9ba1adb</xr:TypeId>
+				<xr:ValueId>4267409e-605b-4f75-bb5c-8c06eb4c1e33</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияДокументовЭДО" category="Manager">
+				<xr:TypeId>f1805f72-004f-410f-89f0-3eeca451bca7</xr:TypeId>
+				<xr:ValueId>0f8b067d-2f40-4536-81bb-8e8dcf62fd6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияДокументовЭДО" category="List">
+				<xr:TypeId>06d6b1ee-fb42-48b4-8c18-e006155f7f1e</xr:TypeId>
+				<xr:ValueId>be875f8e-80f6-4472-8a25-b4efcd9bc842</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияДокументовЭДО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>df3e0116-5822-4555-b4b9-d7afa1ae337d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

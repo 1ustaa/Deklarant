@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="267c2a7a-b14e-4dd8-b176-30ad30f55271">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДанныеПервичныхДокументов" category="Record">
+				<xr:TypeId>adca914d-0e87-41f5-a003-737168550fda</xr:TypeId>
+				<xr:ValueId>0db3e628-0406-4203-b1b6-a8c4d7cc57ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДанныеПервичныхДокументов" category="Manager">
+				<xr:TypeId>45aafef9-d34d-4c82-8314-4b4f7a186b8c</xr:TypeId>
+				<xr:ValueId>05998269-9a8c-4a7d-b7d8-373ccd6a068e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДанныеПервичныхДокументов" category="Selection">
+				<xr:TypeId>083a640c-615b-45ec-955f-2015239a3d1b</xr:TypeId>
+				<xr:ValueId>a2f94f70-79ab-4b13-b479-1dbb40f0a4ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДанныеПервичныхДокументов" category="List">
+				<xr:TypeId>2e692af1-564b-4b8b-838f-307a426d195f</xr:TypeId>
+				<xr:ValueId>42876d36-6294-4464-af8b-cb7a8ea9a697</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДанныеПервичныхДокументов" category="RecordSet">
+				<xr:TypeId>e5e3ef3e-7c79-4240-8ae9-af13b9830ac0</xr:TypeId>
+				<xr:ValueId>7865e24d-8df4-488b-b029-5392c543466d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДанныеПервичныхДокументов" category="RecordKey">
+				<xr:TypeId>2672e889-0d90-4e7d-8631-1cc6331528c4</xr:TypeId>
+				<xr:ValueId>ddc36b7a-323c-417d-a1be-25ffd26ded9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДанныеПервичныхДокументов" category="RecordManager">
+				<xr:TypeId>bde24407-af98-4f69-ad81-07d62375e11a</xr:TypeId>
+				<xr:ValueId>d2da5e4b-4f91-475d-9df3-78a3e16e9749</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДанныеПервичныхДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6e7d6af9-70f2-4101-aaf7-5531739d8d4d</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8aecc7a5-bbda-40c3-8bb9-2e298ae9a57f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ded75f07-1f3d-4ed5-b513-2e950cd3ded0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="39946a9c-a467-47f3-9172-5ecabd002510">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Документ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fc89c894-d787-4009-9a05-0f7c283c1a73</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="c478522e-4204-441a-bb27-2d9ea8242cda">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>203b4705-3912-4b0c-a7c8-8115b4bc4856</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

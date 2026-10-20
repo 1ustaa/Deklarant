@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="ad083e25-8462-468a-8cbc-5c92cc0ab915">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтатусыДокументов" category="Record">
+				<xr:TypeId>60cb7d43-a868-4c46-b8bf-0b350e374d77</xr:TypeId>
+				<xr:ValueId>865dcfa8-944e-4682-bcff-07828dcb0956</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтатусыДокументов" category="Manager">
+				<xr:TypeId>5be8aa97-d44b-45ac-8fef-6df0d5c943cb</xr:TypeId>
+				<xr:ValueId>79aaf509-54c2-4ceb-bce0-a9039c72a564</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтатусыДокументов" category="Selection">
+				<xr:TypeId>f3b07675-ea61-4ddf-a3e0-ecf6d65ef283</xr:TypeId>
+				<xr:ValueId>ff41c704-2cab-4d05-a653-3a6f2e4276f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтатусыДокументов" category="List">
+				<xr:TypeId>601456a2-4897-4023-9728-f1c976ed77dd</xr:TypeId>
+				<xr:ValueId>ae0335ba-3367-407a-bf16-2fb51fa8b177</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусыДокументов" category="RecordSet">
+				<xr:TypeId>07106f5e-0e9a-4bed-b0dd-3d4e7d82a119</xr:TypeId>
+				<xr:ValueId>8937da33-7509-4a50-96a8-7a42d2f6d0d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусыДокументов" category="RecordKey">
+				<xr:TypeId>f532ce88-39e6-4260-85e9-152bfdc2e008</xr:TypeId>
+				<xr:ValueId>c304859f-cba9-4b13-950c-008c2c52ad22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусыДокументов" category="RecordManager">
+				<xr:TypeId>bf65d714-7ea4-4d69-a10f-79fdf6ca83cf</xr:TypeId>
+				<xr:ValueId>1fbebc82-9116-4216-9fe8-fc567a70009b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0cf4f673-b518-4101-ac48-d7e5689fb31b</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4e850923-1242-43d2-b97a-ec20803de0e1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатусСчетаФактуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>46a0c67c-b615-48bd-97dd-ce4e55d1fc53</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыСчетаФактуры</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ec74f559-3893-42e2-9086-bfc9c2352ecc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатусОригиналаСчетаФактуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f3a1c0c5-7591-416f-9f0f-e8384ab4035b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыДокументовПоступления</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="233fc0f5-65f5-4d2a-ba64-5fea694a728f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатусЧекаНПД</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cd105517-e65f-40c5-962e-45c5782cd7cd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыЧековНПД</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9a8ae8d7-53da-4820-a166-f1c5a9d9f9a1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчетаФактуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d395333a-d25a-4b82-8443-bf28be68adda</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="82939284-698a-4c6a-a850-9b2a19da1f5f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительныйСтатус</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d249b3d4-382f-4086-83cc-bf80b768fd61</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="61a16e72-d5b8-4eb8-ac83-721d04cc2c01">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Статус</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2bbc663f-0d55-4046-83fa-a096b2dd61bb</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="d9826f25-8f89-40ae-bfdc-d58cf537853f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5e58adad-58c7-4928-96cc-e666fae6e57b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f0700204-a25d-4940-b236-dd9a113f4864">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Документ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>554e5f1b-3970-427a-bdcb-48f132b61731</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

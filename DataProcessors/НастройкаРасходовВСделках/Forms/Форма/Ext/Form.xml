@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройки расходов в сделках</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Button name="Сохранить" id="39">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<DefaultItem>true</DefaultItem>
+			<CommandName>Form.Command.Сохранить</CommandName>
+			<ExtendedTooltip name="СохранитьРасширеннаяПодсказка" id="40"/>
+		</Button>
+		<UsualGroup name="ГруппаШапка" id="109">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="110"/>
+			<ChildItems>
+				<InputField name="ВидСделки" id="103">
+					<DataPath>ВидСделки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ВидСделкиКонтекстноеМеню" id="104"/>
+					<ExtendedTooltip name="ВидСделкиРасширеннаяПодсказка" id="105"/>
+					<Events>
+						<Event name="OnChange">ВидСделкиПриИзменении</Event>
+					</Events>
+				</InputField>
+				<CheckBoxField name="СлужебноеПоле" id="106">
+					<DataPath>СлужебноеПоле</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СлужебноеПолеКонтекстноеМеню" id="107"/>
+					<ExtendedTooltip name="СлужебноеПолеРасширеннаяПодсказка" id="108"/>
+					<Events>
+						<Event name="OnChange">СлужебноеПолеПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ВычитатьНДСПеревыставляемыйВычитатьПолнуюСуммуВходящихСНДСИзПрофитаБезНДС" id="111">
+					<DataPath>ВычитатьНДСПеревыставляемый.ВычитатьПолнуюСуммуВходящихСНДСИзПрофитаБезНДС</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вычитать сумму входящих НДС из профита без НДС</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВычитатьНДСПеревыставляемыйВычитатьПолнуюСуммуВходящихСНДСИзПрофитаБезНДСКонтекстноеМеню" id="112"/>
+					<ExtendedTooltip name="ВычитатьНДСПеревыставляемыйВычитатьПолнуюСуммуВходящихСНДСИзПрофитаБезНДСРасширеннаяПодсказка" id="113"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="41">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<Page name="РасходыКлиента" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расходы клиента</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расходы клиента</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="РасходыКлиентаРасширеннаяПодсказка" id="48"/>
+				</Page>
+				<Page name="ДопРасходыКонтейнера" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доп. расходы контейнера</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доп расходы контейнера</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДопРасходыКонтейнераРасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<Table name="ДопРасходыКонтейнера1" id="65">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ДопРасходыКонтейнера</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДопРасходыКонтейнера1КонтекстноеМеню" id="66"/>
+							<AutoCommandBar name="ДопРасходыКонтейнера1КоманднаяПанель" id="67"/>
+							<ExtendedTooltip name="ДопРасходыКонтейнера1РасширеннаяПодсказка" id="68"/>
+							<SearchStringAddition name="ДопРасходыКонтейнера1СтрокаПоиска" id="69">
+								<AdditionSource>
+									<Item>ДопРасходыКонтейнера1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопРасходыКонтейнера1СтрокаПоискаКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="ДопРасходыКонтейнера1СтрокаПоискаРасширеннаяПодсказка" id="71"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДопРасходыКонтейнера1СостояниеПросмотра" id="72">
+								<AdditionSource>
+									<Item>ДопРасходыКонтейнера1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопРасходыКонтейнера1СостояниеПросмотраКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="ДопРасходыКонтейнера1СостояниеПросмотраРасширеннаяПодсказка" id="74"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДопРасходыКонтейнера1УправлениеПоиском" id="75">
+								<AdditionSource>
+									<Item>ДопРасходыКонтейнера1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопРасходыКонтейнера1УправлениеПоискомКонтекстноеМеню" id="76"/>
+								<ExtendedTooltip name="ДопРасходыКонтейнера1УправлениеПоискомРасширеннаяПодсказка" id="77"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ДопРасходыКонтейнера1Номенклатура" id="78">
+									<DataPath>ДопРасходыКонтейнера.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДопРасходыКонтейнера1НоменклатураКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="ДопРасходыКонтейнера1НоменклатураРасширеннаяПодсказка" id="80"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ДопРасходыАвтотранспорта" id="43">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доп. расходы автотранспорта</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доп расходы автотранспорта</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДопРасходыАвтотранспортаРасширеннаяПодсказка" id="44"/>
+					<ChildItems>
+						<Table name="ДопРасходыАвтотранспорта1" id="81">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ДопРасходыАвтотранспорта</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДопРасходыАвтотранспорта1КонтекстноеМеню" id="82"/>
+							<AutoCommandBar name="ДопРасходыАвтотранспорта1КоманднаяПанель" id="83"/>
+							<ExtendedTooltip name="ДопРасходыАвтотранспорта1РасширеннаяПодсказка" id="84"/>
+							<SearchStringAddition name="ДопРасходыАвтотранспорта1СтрокаПоиска" id="85">
+								<AdditionSource>
+									<Item>ДопРасходыАвтотранспорта1</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопРасходыАвтотранспорта1СтрокаПоискаКонтекстноеМеню" id="86"/>
+								<ExtendedTooltip name="ДопРасходыАвтотранспорта1СтрокаПоискаРасширеннаяПодсказка" id="87"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДопРасходыАвтотранспорта1СостояниеПросмотра" id="88">
+								<AdditionSource>
+									<Item>ДопРасходыАвтотранспорта1</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопРасходыАвтотранспорта1СостояниеПросмотраКонтекстноеМеню" id="89"/>
+								<ExtendedTooltip name="ДопРасходыАвтотранспорта1СостояниеПросмотраРасширеннаяПодсказка" id="90"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДопРасходыАвтотранспорта1УправлениеПоиском" id="91">
+								<AdditionSource>
+									<Item>ДопРасходыАвтотранспорта1</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДопРасходыАвтотранспорта1УправлениеПоискомКонтекстноеМеню" id="92"/>
+								<ExtendedTooltip name="ДопРасходыАвтотранспорта1УправлениеПоискомРасширеннаяПодсказка" id="93"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ДопРасходыАвтотранспорта1Номенклатура" id="94">
+									<DataPath>ДопРасходыАвтотранспорта.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДопРасходыАвтотранспорта1НоменклатураКонтекстноеМеню" id="95"/>
+									<ExtendedTooltip name="ДопРасходыАвтотранспорта1НоменклатураРасширеннаяПодсказка" id="96"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<Table name="РасходыКлиента1" id="49">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>РасходыКлиента</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="РасходыКлиента1КонтекстноеМеню" id="50"/>
+			<AutoCommandBar name="РасходыКлиента1КоманднаяПанель" id="51"/>
+			<ExtendedTooltip name="РасходыКлиента1РасширеннаяПодсказка" id="52"/>
+			<SearchStringAddition name="РасходыКлиента1СтрокаПоиска" id="53">
+				<AdditionSource>
+					<Item>РасходыКлиента1</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РасходыКлиента1СтрокаПоискаКонтекстноеМеню" id="54"/>
+				<ExtendedTooltip name="РасходыКлиента1СтрокаПоискаРасширеннаяПодсказка" id="55"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РасходыКлиента1СостояниеПросмотра" id="56">
+				<AdditionSource>
+					<Item>РасходыКлиента1</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РасходыКлиента1СостояниеПросмотраКонтекстноеМеню" id="57"/>
+				<ExtendedTooltip name="РасходыКлиента1СостояниеПросмотраРасширеннаяПодсказка" id="58"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РасходыКлиента1УправлениеПоиском" id="59">
+				<AdditionSource>
+					<Item>РасходыКлиента1</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РасходыКлиента1УправлениеПоискомКонтекстноеМеню" id="60"/>
+				<ExtendedTooltip name="РасходыКлиента1УправлениеПоискомРасширеннаяПодсказка" id="61"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">РасходыКлиента1ПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="РасходыКлиента1Номенклатура" id="62">
+					<DataPath>РасходыКлиента.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РасходыКлиента1НоменклатураКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="РасходыКлиента1НоменклатураРасширеннаяПодсказка" id="64"/>
+					<Events>
+						<Event name="OnChange">РасходыКлиента1ПриИзменении</Event>
+					</Events>
+				</InputField>
+				<CheckBoxField name="РасходыКлиента1Перевыставляемый" id="97">
+					<DataPath>РасходыКлиента.Перевыставляемый</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РасходыКлиента1ПеревыставляемыйКонтекстноеМеню" id="98"/>
+					<ExtendedTooltip name="РасходыКлиента1ПеревыставляемыйРасширеннаяПодсказка" id="99"/>
+				</CheckBoxField>
+				<InputField name="РасходыКлиента1ВидСделки" id="100">
+					<DataPath>РасходыКлиента.ВидСделки</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="РасходыКлиента1ВидСделкиКонтекстноеМеню" id="101"/>
+					<ExtendedTooltip name="РасходыКлиента1ВидСделкиРасширеннаяПодсказка" id="102"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.НастройкаРасходовВСделках</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ДопРасходыКонтейнера" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доп расходы контейнера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид расхода</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ДопРасходыАвтотранспорта" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доп расходы автотранспорта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид расхода</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="РасходыКлиента" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расходы клиента</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид расхода</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Перевыставляемый" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перевыставляемый</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВидСделки" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид сделки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыСделок</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПодтвержденоЗакрытиеФормы" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подтверждено закрытие формы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВидСделки" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид сделки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.ВидыСделок</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СлужебноеПоле" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Служебное поле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВычитатьНДСПеревыставляемый" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычитать НДС Перевыставляемый</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ВычитатьНДСПеревыставляемый.ВычитатьПолнуюСуммуВходящихСНДСИзПрофитаБезНДС</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сохранить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сохранить</Action>
+		</Command>
+	</Commands>
+</Form>

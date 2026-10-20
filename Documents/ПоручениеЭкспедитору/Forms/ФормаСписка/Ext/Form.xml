@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandSet>
+		<ExcludedCommand>Delete</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаИсторияИзменений" id="46">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.ChangeHistory</CommandName>
+				<ExtendedTooltip name="ФормаИсторияИзмененийРасширеннаяПодсказка" id="47"/>
+			</Button>
+			<Popup name="ФормаГруппаПодменюОригиналыПолучены" id="48">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Оригиналы получены</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа подменю оригиналы получены</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ФормаГруппаПодменюОригиналыПолученыРасширеннаяПодсказка" id="49"/>
+				<ChildItems>
+					<Button name="ФормаОригиналПорученияЭкспедиторуПолучен" id="54">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОригиналПорученияЭкспедиторуПолучен</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поручение экспедитору</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаОригиналПорученияЭкспедиторуПолученРасширеннаяПодсказка" id="55"/>
+					</Button>
+					<Button name="ФормаОригиналПриложенияКДоговоруПолучен" id="50">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОригиналПриложенияКДоговоруПолучен</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Приложения к договору</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаОригиналПриложенияКДоговоруПолученРасширеннаяПодсказка" id="51"/>
+					</Button>
+					<Button name="ФормаОригиналыПолученыВсе" id="56">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОригиналыПолученыВсе</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаОригиналыПолученыВсеРасширеннаяПодсказка" id="57"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Popup name="ФормаГруппаПодменюОригиналыНеПолучены" id="58">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Оригиналы не получены</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа подменю оригиналы получены</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ФормаГруппаПодменюОригиналыНеПолученыРасширеннаяПодсказка" id="59"/>
+				<ChildItems>
+					<Button name="ФормаОригиналПорученияЭкспедиторуНеПолучен" id="62">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОригиналПорученияЭкспедиторуНеПолучен</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поручение экспедитору</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаОригиналПорученияЭкспедиторуНеПолученРасширеннаяПодсказка" id="63"/>
+					</Button>
+					<Button name="ФормаОригиналПриложенияКДоговоруНеПолучен" id="60">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОригиналПриложенияКДоговоруНеПолучен</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Приложение к договору</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаОригиналПриложенияКДоговоруНеПолученРасширеннаяПодсказка" id="61"/>
+					</Button>
+					<Button name="ФормаОригиналыНеПолученыВсе" id="64">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОригиналыНеПолученыВсе</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаОригиналыНеПолученыВсеРасширеннаяПодсказка" id="65"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="Дата" id="16">
+					<DataPath>Список.Дата</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="Номер" id="19">
+					<DataPath>Список.Номер</DataPath>
+					<ContextMenu name="НомерКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="Контрагент" id="22">
+					<DataPath>~Список.Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="Клиент" id="31">
+					<DataPath>Список.Клиент</DataPath>
+					<ContextMenu name="КлиентКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="Договор" id="37">
+					<DataPath>Список.Договор</DataPath>
+					<ContextMenu name="ДоговорКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<CheckBoxField name="ОригиналПорученияЭкспедиторуПолучен" id="66">
+					<DataPath>Список.ОригиналПорученияЭкспедиторуПолучен</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ориг. поручения</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОригиналПорученияЭкспедиторуПолученКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="ОригиналПорученияЭкспедиторуПолученРасширеннаяПодсказка" id="68"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОригиналПриложенияКДоговоруПолучен" id="69">
+					<DataPath>Список.ОригиналПриложенияКДоговоруПолучен</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ориг. приложения</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОригиналПриложенияКДоговоруПолученКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="ОригиналПриложенияКДоговоруПолученРасширеннаяПодсказка" id="71"/>
+				</CheckBoxField>
+				<LabelField name="Экспедитор" id="28">
+					<DataPath>Список.Экспедитор</DataPath>
+					<ContextMenu name="ЭкспедиторКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ЭкспедиторРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="Грузополучатель" id="34">
+					<DataPath>Список.Грузополучатель</DataPath>
+					<ContextMenu name="ГрузополучательКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ГрузополучательРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="Комментарий" id="40">
+					<DataPath>Список.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<LabelField name="ДокументОснование" id="43">
+					<DataPath>Список.ДокументОснование</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сделка</v8:content>
+						</v8:item>
+					</Title>
+					<Width>40</Width>
+					<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="45"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДокументПоручениеЭкспедитору.Ссылка КАК Ссылка,
+	ДокументПоручениеЭкспедитору.ПометкаУдаления КАК ПометкаУдаления,
+	ДокументПоручениеЭкспедитору.Номер КАК Номер,
+	ДокументПоручениеЭкспедитору.Дата КАК Дата,
+	ДокументПоручениеЭкспедитору.Проведен КАК Проведен,
+	ДокументПоручениеЭкспедитору.Грузоотправитель КАК Грузоотправитель,
+	ДокументПоручениеЭкспедитору.Экспедитор КАК Экспедитор,
+	ДокументПоручениеЭкспедитору.Клиент КАК Клиент,
+	ДокументПоручениеЭкспедитору.Грузополучатель КАК Грузополучатель,
+	ДокументПоручениеЭкспедитору.Договор КАК Договор,
+	ДокументПоручениеЭкспедитору.УведомитьСторонуОПрибытииГруза КАК УведомитьСторонуОПрибытииГруза,
+	ДокументПоручениеЭкспедитору.СтранаПроисхожденияГруза КАК СтранаПроисхожденияГруза,
+	ДокументПоручениеЭкспедитору.ТоварыГотовыеКОтправкеМестоИДата КАК ТоварыГотовыеКОтправкеМестоИДата,
+	ДокументПоручениеЭкспедитору.ВидТранспорта КАК ВидТранспорта,
+	ДокументПоручениеЭкспедитору.ПунктНазначения КАК ПунктНазначения,
+	ДокументПоручениеЭкспедитору.Страхование КАК Страхование,
+	ДокументПоручениеЭкспедитору.ТоварныйКод КАК ТоварныйКод,
+	ДокументПоручениеЭкспедитору.Маркировка КАК Маркировка,
+	ДокументПоручениеЭкспедитору.КоличествоМестВидУпаковки КАК КоличествоМестВидУпаковки,
+	ДокументПоручениеЭкспедитору.ВесБруттоНетто КАК ВесБруттоНетто,
+	ДокументПоручениеЭкспедитору.Объем КАК Объем,
+	ДокументПоручениеЭкспедитору.СтоимостьГруза КАК СтоимостьГруза,
+	ДокументПоручениеЭкспедитору.РазмерУпаковки КАК РазмерУпаковки,
+	ДокументПоручениеЭкспедитору.ТребуемыеДокументы КАК ТребуемыеДокументы,
+	ДокументПоручениеЭкспедитору.ОсобыеОтметки КАК ОсобыеОтметки,
+	ДокументПоручениеЭкспедитору.Комментарий КАК Комментарий,
+	ДокументПоручениеЭкспедитору.НомерПриложения КАК НомерПриложения,
+	ДокументПоручениеЭкспедитору.ДатаПриложения КАК ДатаПриложения,
+	ДокументПоручениеЭкспедитору.НеПечататьСтоимостьУслугВПоручении КАК НеПечататьСтоимостьУслугВПоручении,
+	ДокументПоручениеЭкспедитору.ДокументОснование КАК ДокументОснование,
+	ДокументПоручениеЭкспедитору.Ответственный КАК Ответственный,
+	ДокументПоручениеЭкспедитору.ДатаДо КАК ДатаДо,
+	ДокументПоручениеЭкспедитору.ПунктОтправления КАК ПунктОтправления,
+	ДокументПоручениеЭкспедитору.РеализацииТоваровИУслуг.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Реализация КАК Реализация
+	) КАК РеализацииТоваровИУслуг,
+	ДокументПоручениеЭкспедитору.ОтчетыКомитентам.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ОтчетКомитенту КАК ОтчетКомитенту
+	) КАК ОтчетыКомитентам,
+	ДокументПоручениеЭкспедитору.СоставНоменклатуры.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Содержание КАК Содержание,
+		Количество КАК Количество,
+		Цена КАК Цена,
+		Сумма КАК Сумма,
+		Документ КАК Документ,
+		Валюта КАК Валюта,
+		Дополнительно КАК Дополнительно,
+		СуммаНДС КАК СуммаНДС,
+		СтавкаНДС КАК СтавкаНДС
+	) КАК СоставНоменклатуры,
+	ДокументПоручениеЭкспедитору.ИзменяемоеСодержимоеПриложения.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Пункт КАК Пункт,
+		Наименование КАК Наименование,
+		Содержимое КАК Содержимое
+	) КАК ИзменяемоеСодержимоеПриложения,
+	ДокументПоручениеЭкспедитору.МоментВремени КАК МоментВремени,
+	СтатусыОригиналовДокументовПоручениеЭкспедитору.ОригиналПорученияЭкспедиторуПолучен КАК ОригиналПорученияЭкспедиторуПолучен,
+	СтатусыОригиналовДокументовПоручениеЭкспедитору.ОригиналПриложенияКДоговоруПолучен КАК ОригиналПриложенияКДоговоруПолучен
+ИЗ
+	Документ.ПоручениеЭкспедитору КАК ДокументПоручениеЭкспедитору
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СтатусыОригиналовДокументовПоручениеЭкспедитору КАК СтатусыОригиналовДокументовПоручениеЭкспедитору
+		ПО ДокументПоручениеЭкспедитору.Ссылка = СтатусыОригиналовДокументовПоручениеЭкспедитору.Документ</QueryText>
+				<MainTable>Document.ПоручениеЭкспедитору</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОригиналПорученияЭкспедиторуПолучен" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал поручения экспедитору получен</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал поручения экспедитору получен</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОригиналПорученияЭкспедиторуПолучен</Action>
+		</Command>
+		<Command name="ОригиналПорученияЭкспедиторуНеПолучен" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал поручения экспедитору получен</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал поручения экспедитору получен</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОригиналПорученияЭкспедиторуНеПолучен</Action>
+		</Command>
+		<Command name="ОригиналПриложенияКДоговоруПолучен" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал приложения к договору получен</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал приложения к договору получен</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОригиналПриложенияКДоговоруПолучен</Action>
+		</Command>
+		<Command name="ОригиналПриложенияКДоговоруНеПолучен" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал приложения к договору не получен</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал приложения к договору не получен</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОригиналПриложенияКДоговоруНеПолучен</Action>
+		</Command>
+		<Command name="ОригиналыПолученыВсе" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригиналы получены все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригиналы получены все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОригиналыПолученыВсе</Action>
+		</Command>
+		<Command name="ОригиналыНеПолученыВсе" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригиналы не получены все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригиналы не получены все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОригиналыНеПолученыВсе</Action>
+		</Command>
+	</Commands>
+</Form>

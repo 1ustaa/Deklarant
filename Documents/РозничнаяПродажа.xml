@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e45cee77-72fd-444f-968e-fbb8f8e2a5aa">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РозничнаяПродажа" category="Object">
+				<xr:TypeId>1279562e-bd92-457d-98df-136e4ae82e16</xr:TypeId>
+				<xr:ValueId>84edd040-6f10-4406-bae8-e11ead051e5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РозничнаяПродажа" category="Ref">
+				<xr:TypeId>2d211f07-8367-44ae-81a7-e92213280fe6</xr:TypeId>
+				<xr:ValueId>b33324ee-8246-4aac-9668-7099cbf847f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РозничнаяПродажа" category="Selection">
+				<xr:TypeId>3649cd4d-9815-45aa-b830-c4d5940cd41f</xr:TypeId>
+				<xr:ValueId>c0be98b1-0d19-4915-9cd3-268c1394eaf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РозничнаяПродажа" category="List">
+				<xr:TypeId>64d71932-b0f3-4a2e-b868-fe632f683c6d</xr:TypeId>
+				<xr:ValueId>402ab16f-c2af-4099-8e37-14aff33d140b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РозничнаяПродажа" category="Manager">
+				<xr:TypeId>152f0d74-4cce-4ceb-a068-11c86fd7d4ab</xr:TypeId>
+				<xr:ValueId>1e35ccfe-707c-4b56-9e54-4b8cd7f615f8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РозничнаяПродажа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e38925fb-25d2-4ecc-a58b-3d32346b67b4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="187e8280-31b9-4119-8446-f40a4669b125">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РозничнаяПродажа.АгентскиеУслуги" category="TabularSection">
+						<xr:TypeId>657d9400-6d45-4c7f-b269-77eefc0ed101</xr:TypeId>
+						<xr:ValueId>06e46ed8-8b03-4587-b9d0-a852ae35060e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РозничнаяПродажа.АгентскиеУслуги" category="TabularSectionRow">
+						<xr:TypeId>d9bcf871-c47b-488a-a866-2ab37a462358</xr:TypeId>
+						<xr:ValueId>0c0fd105-060b-4e7c-8834-996930803e20</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АгентскиеУслуги</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6b391dae-09aa-4b2f-8a40-d43351c6ae2b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="778d0188-78f3-4246-97e1-90a1b0422f8a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Контрагент</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>48331456-8a74-42b1-87e7-4e7b50ec597d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b0595f4c-4502-4a3b-bbe1-ac966af30bb4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорКонтрагента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6a70d926-d667-4b1f-beb0-a7928999615c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
