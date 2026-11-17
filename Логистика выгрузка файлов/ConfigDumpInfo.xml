@@ -1298,7 +1298,7 @@
 			<Metadata name="Document.ОтчетКомиссионераОПродажах.Attribute.ДоговорКонтрагента" id="2c8e473d-b69f-44e3-8775-ee4ad58f2dee"/>
 			<Metadata name="Document.ОтчетКомиссионераОПродажах.Attribute.Контрагент" id="b77125e6-12d0-4f00-bb8c-2593becd5cfe"/>
 		</Metadata>
-		<Metadata name="Document.ОтчетКомитентуОПродажах" id="0a5fedd0-4ac5-4981-b7cf-e9919a2e3e5c" configVersion="68490002b6853b6569913f8a88e5953df4b8c493">
+		<Metadata name="Document.ОтчетКомитентуОПродажах" id="0a5fedd0-4ac5-4981-b7cf-e9919a2e3e5c" configVersion="ac755cde58b04316f4cb86f89384ba720556b9fe">
 			<Metadata name="Document.ОтчетКомитентуОПродажах.Attribute.Графа7_УСН" id="00983158-75dd-4317-bcb7-44de540c2d87"/>
 			<Metadata name="Document.ОтчетКомитентуОПродажах.Attribute.ДокументОснование" id="0359d12c-7ca3-44e3-b3af-88fe3635726e"/>
 			<Metadata name="Document.ОтчетКомитентуОПродажах.Attribute.СчетУчетаНДСПоРеализации" id="09540abb-4294-4926-b9f9-669f123d3a7d"/>
@@ -1365,7 +1365,7 @@
 		<Metadata name="Document.ОтчетКомитентуОПродажах.Form.ФормаСписка" id="d7d66274-d308-4d36-a785-e9102fdc4add" configVersion="fc72c4ffaa065e212ed00373f53f9ed4bc719090"/>
 		<Metadata name="Document.ОтчетКомитентуОПродажах.Form.ФормаСписка.Form" id="d7d66274-d308-4d36-a785-e9102fdc4add.0" configVersion="fc5384b748d13cba5e51c260a55e54eee14020fb"/>
 		<Metadata name="Document.ОтчетКомитентуОПродажах.ManagerModule" id="0a5fedd0-4ac5-4981-b7cf-e9919a2e3e5c.2" configVersion="eb26872aa1b5109a9cb5b7fb9112af2a04842379"/>
-		<Metadata name="Document.ОтчетКомитентуОПродажах.ObjectModule" id="0a5fedd0-4ac5-4981-b7cf-e9919a2e3e5c.0" configVersion="3b4d782bb481e9c8f96b87bafb81c05365c3f97f"/>
+		<Metadata name="Document.ОтчетКомитентуОПродажах.ObjectModule" id="0a5fedd0-4ac5-4981-b7cf-e9919a2e3e5c.0" configVersion="f519f93ea1ed574f2649b15fe26e66e4a8d8b879"/>
 		<Metadata name="Document.ОтчетКомитентуОПродажах.Template.ПФ_MXL_ОтчетКомитентуОЗакупках" id="87ff803b-a508-43ad-9c18-19525f25177b" configVersion="a7f6c6cd3c322280e885ac52ba912273f822257a"/>
 		<Metadata name="Document.ОтчетКомитентуОПродажах.Template.ПФ_MXL_ОтчетКомитентуОЗакупках.Template" id="87ff803b-a508-43ad-9c18-19525f25177b.0" configVersion="c6b599b1e53faf5db95dcd1dbdbdefd31a5f0c74"/>
 		<Metadata name="Document.ОтчетМаркетплейса" id="3a1a0abe-d890-4072-843a-a87dff73ac7d" configVersion="f550c6e7f265ac07b51007df14b475c0c1586d77"/>
